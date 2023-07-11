@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+<div style="text-align: center">
+    <img src="assets/RamBots Logo.svg" alt="RamBots Logo" style="width:25%"/>
+    <br>
+	<h1> 
+		<strong>Rambots Docs</strong>
+	</h1>
+</div>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+Welcome to the Rambots Documentation!
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[https://docs.rambots.org](https://docs.rambots.org)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[https://github.com/frc2204/ramdocs](https://github.com/frc2204/ramdocs)

@@ -1,6 +1,44 @@
-site_name: RamBots Documentation
-repo_url: https://github.com/squidfunk/mkdocs-material
+site_name: 2204 Rambots Documentation
+
+repo_name: frc2204/ramdocs
+repo_url: https://github.com/frc2204/ramdocs
+
+nav:
+  - Home: index.md
+  - Programming: programming/index.md
+  - Electrical:
+    - Rev Robotics Diagram: electrical/electrical-rev-diagram.md
+  - Design: design/index.md
+  - Fabrication: 
+      - How to use a Circular Saw: fabrication/fabrication-how-to-use-a-circular-saw.md
+      - How to use a Drill Press: fabrication/fabrication-how-to-use-a-drill-press.md
+      - How to use a Power Drill: fabrication/fabrication-how-to-use-a-drill.md
+      - How to use an Impact Driver: fabrication/fabrication-how-to-use-a-impact-driver.md
+      - How to use a Miter Saw: fabrication/fabrication-how-to-use-a-miter-saw.md
+  - Business: business/index.md
+
 
 
 theme:
   name: material
+  logo: assets/logo_42.png
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
+plugins:
+  - social
+  - search
