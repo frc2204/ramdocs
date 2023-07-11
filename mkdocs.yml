@@ -1,0 +1,6 @@
+site_name: RamBots Documentation
+repo_url: https://github.com/squidfunk/mkdocs-material
+
+
+theme:
+  name: material
