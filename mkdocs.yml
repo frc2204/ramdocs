@@ -12,7 +12,8 @@ nav:
         - Git In Action (Single Repository): programming/version-control/git-in-action-single.md
         - Git In Action (Multiple Repositories): programming/version-control/git-in-action-multiple.md
         - Github: programming/version-control/github.md
-        - Git Cheat Sheet: programming/version-control/git-cheat-sheet.md
+        - Git + IntelliJ: programming/version-control/git-intellij.md
+        - Git Development Patterns: programming/version-control/git-dev-patterns.md
         - Git WTFs: programming/version-control/git-wtfs.md
   - Electrical:
     - Electrical Overview: electrical/overview.md
@@ -38,8 +39,8 @@ theme:
     - navigation.tabs
     - navigation.expand
     - toc.follow
-    - toc.integrate
     - navigation.top
+    - content.code.copy
   palette:
     - scheme: default
       toggle:
@@ -57,9 +58,27 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences:
      custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
