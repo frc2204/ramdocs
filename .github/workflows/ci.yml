@@ -23,4 +23,4 @@ jobs:
             mkdocs-material-
       - run: python3 -m pip install --upgrade pip pipenv
       - run: pipenv sync --dev
-      - run: pipenv run mkdocs gh-deploy --force
+      - run: pipenv run mkdocs gh-deploy
