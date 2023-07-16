@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0b0fa5e02ff91c6085033f6535fee5a11119061e17eaaf766b7fa1a3f4936493"
+            "sha256": "d1ed4a132ee6c5954c41b0da2ab37c056428caa2824a3b4dfa3f6196ae4e9cfa"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -192,11 +192,11 @@
         },
         "click": {
             "hashes": [
-                "sha256:2739815aaa5d2c986a88f1e9230c55e17f0caad3d958a5e13ad0797c166db9e3",
-                "sha256:b97d0c74955da062a7d4ef92fadb583806a585b2ea81958a81bd72726cbb8e37"
+                "sha256:4be4b1af8d665c6d942909916d31a213a106800c47d0eeba73d34da3cbc11367",
+                "sha256:e576aa487d679441d7d30abb87e1b43d24fc53bffb8758443b1a9e1cee504548"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==8.1.4"
+            "version": "==8.1.5"
         },
         "colorama": {
             "hashes": [
@@ -325,6 +325,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==1.4.3"
         },
+        "mkdocs-glightbox": {
+            "hashes": [
+                "sha256:8f894435b4f75231164e5d9fb023c01e922e6769e74a121e822c4914f310a41d",
+                "sha256:96aaf98216f83c0d0fad2e42a8d805cfa6329d6ab25b54265012ccb2154010d8"
+            ],
+            "index": "pypi",
+            "version": "==0.3.4"
+        },
         "mkdocs-material": {
             "hashes": [
                 "sha256:5bcf8fb79ac2f253c0ffe93fa181cba87718c6438f459dc4180ac7418cc9a450",
@@ -428,11 +436,11 @@
         },
         "pymdown-extensions": {
             "hashes": [
-                "sha256:ae66d84013c5d027ce055693e09a4628b67e9dec5bce05727e45b0918e36f274",
-                "sha256:b44e1093a43b8a975eae17b03c3a77aad4681b3b56fce60ce746dbef1944c8cb"
+                "sha256:508009b211373058debb8247e168de4cbcb91b1bff7b5e961b2c3e864e00b195",
+                "sha256:ef25dbbae530e8f67575d222b75ff0649b1e841e22c2ae9a20bad9472c2207dc"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==10.0.1"
+            "version": "==10.1"
         },
         "python-dateutil": {
             "hashes": [

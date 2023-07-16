@@ -1,14 +1,10 @@
 <div style="text-align: center">
-    <img src="assets/RamBots Logo.svg" alt="RamBots Logo" style="width:25%"/>
+    <img src="assets/logo.svg" alt="RamBots Logo" style="width:25%"/>
     <br>
 	<h1> 
-		<strong>Rambots Docs</strong>
+		<strong>Ramdocs</strong>
 	</h1>
 </div>
+The official source of documentation and training materials for the 2204 Rambots
 
-
-Welcome to the Rambots Documentation!
-
-[https://docs.rambots.org](https://docs.rambots.org)
-
-[https://github.com/frc2204/ramdocs](https://github.com/frc2204/ramdocs)
+Visit our main website at [rambots.org](https://rambots.org) or contact us at [contact@rambots.org](mailto:cotact@rambots.org)

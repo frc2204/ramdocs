@@ -1,8 +1,6 @@
-## Introduction:
-
 A circular saw is a versatile power tool used for making straight cuts in various materials such as wood, plywood, and plastic. This document provides step-by-step instructions on how to safely and effectively operate a circular saw.
 
-**1. Safety Precautions**
+## Safety Precautions
 
 - Always wear appropriate personal protective equipment (PPE), including safety goggles, ear protection, and a dust mask if necessary.
 - Ensure the work area is well-lit and free from clutter.
@@ -55,7 +53,10 @@ A circular saw is a versatile power tool used for making straight cuts in variou
 **7. Troubleshooting**
 
 - **Blade Binding**: If the blade binds during a cut, release the trigger immediately and remove the saw from the workpiece.
->**FAILURE TO DO SO COULD RESULT IN INJURY**
+
+!!! danger
+    Failure to do so can result in serious or lethal injury
+
 - **Inaccurate Cuts**: Ensure the base plate is properly aligned with the cut line and the blade is sharp and in good condition.
 
 **Conclusion**

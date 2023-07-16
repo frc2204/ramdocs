@@ -5,18 +5,29 @@ repo_url: https://github.com/frc2204/ramdocs
 
 nav:
   - Home: index.md
-  - Programming: programming/index.md
+  - Programming:
+    - Programming Overview: programming/overview.md
+    - Version Control:
+        - Git Introduction: programming/version-control/git-intro.md
+        - Git In Action (Single Repository): programming/version-control/git-in-action-single.md
+        - Git In Action (Multiple Repositories): programming/version-control/git-in-action-multiple.md
+        - Git Cheat Sheet: programming/version-control/git-cheat-sheet.md
+        - Git WTFs: programming/version-control/git-wtfs.md
   - Electrical:
+    - Electrical Overview: electrical/overview.md
     - Rev Robotics Diagram: electrical/electrical-rev-diagram.md
-  - Design: design/index.md
-  - Fabrication: 
-      - How to use a Circular Saw: fabrication/fabrication-how-to-use-a-circular-saw.md
-      - How to use a Drill Press: fabrication/fabrication-how-to-use-a-drill-press.md
-      - How to use a Power Drill: fabrication/fabrication-how-to-use-a-drill.md
-      - How to use an Impact Driver: fabrication/fabrication-how-to-use-a-impact-driver.md
-      - How to use a Miter Saw: fabrication/fabrication-how-to-use-a-miter-saw.md
-  - Business: business/index.md
-
+  - Design:
+    - Design Overview: design/overview.md
+  - Fabrication:
+      - Fabrication Overview: fabrication/overview.md
+      - Tools:
+        - Power Drill: fabrication/tools/drill.md
+        - Circular Saw: fabrication/tools/circular-saw.md
+        - Drill Press: fabrication/tools/drill-press.md
+        - Impact Driver: fabrication/tools/impact-driver.md
+        - Miter Saw: fabrication/tools/miter-saw.md
+  - Business:
+    - Business Overview: business/overview.md
 
 
 theme:
@@ -28,7 +39,7 @@ theme:
     - toc.follow
     - toc.integrate
     - navigation.top
-  palette: 
+  palette:
     - scheme: default
       toggle:
         icon: material/brightness-7 
@@ -38,7 +49,16 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-
 plugins:
   - social
   - search
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+     custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
