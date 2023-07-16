@@ -40,7 +40,7 @@ gitGraph
 Windows does not come with Git installed by default. To install Git, download the installer from [here](https://git-scm.com/download/win).
 
 !!! tip
-    If you plan on installing IntelliJ IDEA, you can choose to install Git with it. This will install Git for you, and you will not need to install it separately.
+    If you plan on installing IntelliJ IDEA, you can choose to install Git. Open the `Get from VCS` menu, and you should see a warning that Git is not installed. Click on the `Install` button, and you should be able to install Git from there.
 
 #### MacOS and Linux
 Git is already installed by default with MacOS and Linux. To check if it is installed, open a terminal and type `git --version`.

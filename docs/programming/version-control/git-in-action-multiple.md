@@ -215,4 +215,4 @@ A feature within JetBrains IDEs, Code With Me allows you to collaborate with oth
 !!! tip
     It is highly recommended that you use Code With Me for real-time collaboration.
 
-Congratulations! You now know the basics of Git! :tada:
+Congratulations! You now know the basics of Git and collaboration! :tada:

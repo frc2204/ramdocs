@@ -7,6 +7,8 @@ Visit GitHub [here](https://github.com/).
 !!! info
     GitHub is not the only git hosting service. There are many other services, like [Gitlab](https://gitlab.com/), [Bitbucket](https://bitbucket.org/), and [Gitea](https://gitea.io/en-us/).
 
+    For our team, we'll be using GitHub, as it has an excellent balance of features for both beginners and advanced users.
+
 ## Setup
 ### Creating an Account
 To create an account, go to [github.com](https://github.com/signup) and follow the instructions.
@@ -32,11 +34,20 @@ To create a pull request, you'll need to create a branch, and push that branch t
 
 Once you've pushed your branch to GitHub, you can create a pull request. To do this, go to the repository on GitHub, and click the "Pull Requests" tab. Then, click the "New Pull Request" button.
 
-Github will prompt you to select a base branch and a compare branch. The base branch is the branch that you want to merge your changes into. The compare branch is the branch that you want to merge into the base branch. Typically, the compare branch is the branch that you created.
+???+ tip
+    GitHub may detect that you've pushed changes to a branch, and prompt you to create a pull request.
+
+    ![Pull Request Prompt](https://docs.github.com/assets/cb-34106/mw-1440/images/help/pull_requests/pull-request-compare-pull-request.webp)
+
+Next, GitHub will prompt you to select a base branch and a compare branch. The base branch is the branch that you want to merge your changes into. The compare branch is the branch that you want to merge into the base branch. Typically, the compare branch is the branch that you created.
+
+![Selecting the base and compare branches](https://docs.github.com/assets/cb-87213/mw-1440/images/help/pull_requests/pull-request-review-edit-branch.webp)
 
 Once you've selected the base and compare branches, you can click the "Create Pull Request" button. You'll be prompted to enter a title and description for your pull request. Once you've done this, you can click the "Create Pull Request" button again.
 
 Add the programming lead as a reviewer, and click the "Create Pull Request" button again. This will create the pull request, and notify the programming lead.
+
+![Adding Reviewers](https://cdn.discordapp.com/attachments/786053009964269591/1130239663723008011/image.png)
 
 Congratulations! You've created a pull request! :tada:
 
