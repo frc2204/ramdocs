@@ -15,6 +15,7 @@ nav:
         - Git + IntelliJ: programming/version-control/git-intellij.md
         - Git Development Patterns: programming/version-control/git-dev-patterns.md
         - Git WTFs: programming/version-control/git-wtfs.md
+        - Git Practice Activity: programming/version-control/git-practice-activity.md
   - Electrical:
     - Electrical Overview: electrical/overview.md
     - Rev Robotics Diagram: electrical/electrical-rev-diagram.md
@@ -34,13 +35,17 @@ nav:
 
 theme:
   name: material
-  logo: assets/logo_42.png
+  logo: assets/logo_512.png
   features:
     - navigation.tabs
     - navigation.expand
     - toc.follow
     - navigation.top
     - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
+
   palette:
     - scheme: default
       toggle:
@@ -55,6 +60,7 @@ plugins:
   - social
   - search
   - glightbox
+  - offline
 
 markdown_extensions:
   - admonition
@@ -65,6 +71,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.keys
   - pymdownx.superfences:
      custom_fences:
         - name: mermaid
