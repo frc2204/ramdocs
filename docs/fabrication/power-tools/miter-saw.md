@@ -1,4 +1,4 @@
-## Introduction:
+ ## Introduction:
 
 A miter saw is a versatile power tool used for making accurate crosscuts and angled cuts in various materials such as wood, plastic, and metal. This documentation provides step-by-step instructions on how to safely and effectively operate a miter saw.
 

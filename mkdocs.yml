@@ -56,12 +56,19 @@ nav:
     - Design Overview: design/overview.md
   - Fabrication:
       - Fabrication Overview: fabrication/overview.md
-      - Tools:
-        - Power Drill: fabrication/tools/drill.md
-        - Circular Saw: fabrication/tools/circular-saw.md
-        - Drill Press: fabrication/tools/drill-press.md
-        - Impact Driver: fabrication/tools/impact-driver.md
-        - Miter Saw: fabrication/tools/miter-saw.md
+      - Hand Tools:
+          - Wrenches: fabrication/hand-tools/wrench.md
+      - Power Tools:
+        - Power Drill: fabrication/power-tools/drill.md
+        - Circular Saw: fabrication/power-tools/circular-saw.md
+        - Drill Press: fabrication/power-tools/drill-press.md
+        - Impact Driver: fabrication/power-tools/impact-driver.md
+        - Miter Saw: fabrication/power-tools/miter-saw.md
+      - Computer Numerical Control (CNC):
+          - 3D Printer: fabrication/cnc/3d-printer.md
+          - Laser Cutter: fabrication/cnc/laser-cutter.md
+      - File Types:
+          - Drawing Exchange Format (DXF): fabrication/file-types/dxf.md
   - Business:
     - Business Overview: business/overview.md
 
@@ -90,7 +97,6 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - social
   - search
   - glightbox
   - offline
