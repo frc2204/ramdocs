@@ -78,7 +78,8 @@ sequenceDiagram
     Local1->>Remote: git push
 ```
 
-`Local1` was able to push changes, but keep in mind that `Local2` isn't able to see the changes. How do we fix this?
+!!! question
+    `Local1` was able to push changes, but keep in mind that `Local2` isn't able to see the changes. How do we fix this?
 
 ### `git pull`
 To pull changes from a remote repository, we can use the `git pull` command. This command will take all the new commits that have been pushed to the remote repository, and pull them to our local repository.

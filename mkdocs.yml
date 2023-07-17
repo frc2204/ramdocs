@@ -7,6 +7,27 @@ nav:
   - Home: index.md
   - Programming:
     - Programming Overview: programming/overview.md
+    - Kotlin:
+        - Fundamentals:
+          - Introduction to Programming: programming/kotlin/fundamentals/intro-to-programming.md
+          - Introduction to Kotlin: programming/kotlin/fundamentals/intro-to-kotlin.md
+          - Variables: programming/kotlin/fundamentals/variables.md
+          - Conditionals: programming/kotlin/fundamentals/conditionals.md
+          - Control Flow: programming/kotlin/fundamentals/control-flow.md
+          - Loops: programming/kotlin/fundamentals/loops.md
+          - Functions: programming/kotlin/fundamentals/functions.md
+          - Collections: programming/kotlin/fundamentals/collections.md
+          - Maps: programming/kotlin/fundamentals/maps.md
+        - Object Oriented Programming:
+          - Classes: programming/kotlin/oop/classes.md
+          - Inheritance: programming/kotlin/oop/inheritance.md
+          - Abstraction: programming/kotlin/oop/abstraction.md
+          - Polymorphism: programming/kotlin/oop/polymorphism.md
+          - Encapsulation: programming/kotlin/oop/encapsulation.md
+          - Interfaces: programming/kotlin/oop/interfaces.md
+          - Access Modifiers: programming/kotlin/oop/access-modifiers.md
+          - Static vs. Instance: programming/kotlin/oop/static-vs-instance.md
+          - Data Classes and Structures: programming/kotlin/oop/data-classes-and-structures.md
     - Version Control:
         - Git Introduction: programming/version-control/git-intro.md
         - Git In Action (Single Repository): programming/version-control/git-in-action-single.md
@@ -16,6 +37,18 @@ nav:
         - Git Development Patterns: programming/version-control/git-dev-patterns.md
         - Git WTFs: programming/version-control/git-wtfs.md
         - Git Practice Activity: programming/version-control/git-practice-activity.md
+    - Advanced Topics:
+        - PID Controllers: programming/advanced-topics/pid-control.md
+        - Inverse Kinematics: programming/advanced-topics/inverse-kinematics.md
+        - Motion Profiling: programming/advanced-topics/motion-profiling.md
+        - Path Planning: programming/advanced-topics/path-planning.md
+        - Vision Processing: programming/advanced-topics/vision-processing.md
+        - Testing: programming/advanced-topics/testing.md
+        - Debugging: programming/advanced-topics/debugging.md
+        - Logging: programming/advanced-topics/logging.md
+        - Unit Testing: programming/advanced-topics/unit-testing.md
+        - Continuous Integration: programming/advanced-topics/continuous-integration.md
+        - Continuous Deployment: programming/advanced-topics/continuous-deployment.md
   - Electrical:
     - Electrical Overview: electrical/overview.md
     - Rev Robotics Diagram: electrical/electrical-rev-diagram.md
@@ -63,14 +96,18 @@ plugins:
   - offline
 
 markdown_extensions:
+  - abbr
   - admonition
+  - def_list
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.details
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.keys
   - pymdownx.superfences:
      custom_fences:
