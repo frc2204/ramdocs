@@ -90,7 +90,6 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - social
   - search
   - glightbox
   - offline

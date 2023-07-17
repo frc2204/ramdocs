@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 pillow = "*"
-cairosvg = "*"
 mkdocs-material = "*"
 mkdocs-glightbox = "*"
 
