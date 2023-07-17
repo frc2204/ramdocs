@@ -7,6 +7,28 @@ To create a repository, open your terminal and run `git init` in the desired dir
     `git init` actually creates a hidden folder called `.git` in the current working directory. This folder contains all the information about the repository, and should not be modified manually.
     You can see the contents of `.git` by enabling hidden files in your file explorer, or by running `ls -a` in your terminal.
 
+## The Google Docs Analogy
+Let's take a step back for a moment. If your familiar with Google Docs, there's a feature that allows you to see the revision history of a document. 
+
+You can check this out by opening any Google Doc you have, and clicking `File` > `Version History` > `See Version History`.
+
+![Hi Google Doc](https://cdn.discordapp.com/attachments/786053009964269591/1130336856509255760/image.png)
+
+If I add something to the document, I can see that the document has been updated, and I can see the changes I made.
+
+![Added A Line to Google Doc](https://cdn.discordapp.com/attachments/786053009964269591/1130337286710624276/image.png)
+
+Git essentially does the same thing, but for your entire project. It keeps track of all the changes you make to your files, and allows you to restore old versions of your files.
+
+Unlike Google Docs, however, Git doesn't automatically track your changes. You have to tell Git what files you want to track, and when you want to take a snapshot of your files.
+
+So, the steps of using Git are as follows:
+
+- Make changes to your files
+- Tell Git what files you want to track
+- Take a snapshot of your files
+- Repeat
+
 ## Adding and Committing Files
 After creating your repository with `git init`, git doesn't actually know what files you want to track. Here's what git knows about your repository so far:
 
