@@ -36,6 +36,9 @@ IntelliJ IDEA is our team's primary Integrated Development Environment. It is a 
 #### WPI Library
 :   Robot, Subsystems, Commands, Sensors, Motors, Controllers, Event-Based Programming, Command-Based Programming, Phoenix API, CTRE API
 
+!!! tip
+    This is section contains knowledge that is specific to FRC. That being said, we expect all members of the programming team attend these workshops, regardless of prior experience.
+
 #### Version Control
 :   Git, Git Collaboration, GitHub, Development Workflows
 
@@ -46,6 +49,12 @@ IntelliJ IDEA is our team's primary Integrated Development Environment. It is a 
     Topics in this section are optional and are not required to be a part of the Programming team. However, they are highly recommended if you are interesting in the theory behind robotics programming as well as leadership positions on the Programming team.
 
 ## Help, I'm Stuck!
+If your stuck, don't worry! We've all been there. Here are some resources that you can use to help you out:
+
+- [Chief Delphi](https://www.chiefdelphi.com/) is a forum for all things specific to FRC. 
+- [Stack Overflow](https://stackoverflow.com/) is a forum for all things programming (coding, debugging, etc.). Chances are, if you have a question or meet a weird bug, someone else has asked about it.
+- [Google](https://www.google.com/) is your friend. If you have a question, chances are someone else has asked it before. If you have an error, chances are someone else has encountered it before. If you have a problem, chances are someone else has solved it before. If you have a question, error, or problem, Google it.
+- [ChatGPT](https://chat.openai.com/) is a Large Language Model that can answer questions, generate code, and even help debug. It's not perfect, but it's pretty good at answering questions about programming, as well as explaining concepts.
 
 ## Credits
 - James Ding
