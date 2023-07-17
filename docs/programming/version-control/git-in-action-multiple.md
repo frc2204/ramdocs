@@ -102,6 +102,9 @@ sequenceDiagram
     Remote->>Local2: Repository
 ```
 
+!!! success
+    Now, `Local2` is able to see the changes that `Local1` made. This allows us to sync changes between multiple people.
+
 !!! info
     `git pull` is actually just a combination of `git fetch` and `git merge`. `git fetch` will fetch all the new commits from the remote repository, and `git merge` will merge them into our local repository.
 

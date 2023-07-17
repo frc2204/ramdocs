@@ -4,7 +4,7 @@
 To create a repository, open your terminal and run `git init` in the desired directory you want to create a repository in.
 
 ??? question "What does `git init` actually do under the hood?"
-    `git init` actually a hidden folder called `.git` in the directory. This folder contains all the information about the repository, and should not be modified manually.
+    `git init` actually creates a hidden folder called `.git` in the current working directory. This folder contains all the information about the repository, and should not be modified manually.
     You can see the contents of `.git` by enabling hidden files in your file explorer, or by running `ls -a` in your terminal.
 
 ## Adding and Committing Files
