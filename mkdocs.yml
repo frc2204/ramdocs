@@ -116,6 +116,8 @@ plugins:
   - search
   - glightbox
   - offline
+  - social:
+      enabled: !ENV [CI, false]
 
 markdown_extensions:
   - abbr
