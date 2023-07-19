@@ -51,7 +51,7 @@ nav:
         - Continuous Deployment: programming/advanced-topics/continuous-deployment.md
   - Electrical:
     - Electrical Overview: electrical/overview.md
-    - Rev Robotics Diagram: electrical/electrical-rev-diagram.md
+    - Rev Robotics Diagram: electrical/electrical-diagrams.md
   - Design:
     - Design Overview: design/overview.md
   - Fabrication:
