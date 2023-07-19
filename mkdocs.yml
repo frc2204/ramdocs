@@ -51,12 +51,28 @@ nav:
         - Continuous Deployment: programming/advanced-topics/continuous-deployment.md
   - Electrical:
     - Electrical Overview: electrical/overview.md
-    - Rev Robotics Diagram: electrical/electrical-diagrams.md
+    - Electrical Diagrams: electrical/electrical-diagrams.md
   - Design:
     - Design Overview: design/overview.md
   - Fabrication:
       - Fabrication Overview: fabrication/overview.md
       - Hand Tools:
+          - Calipers: fabrication/hand-tools/calipers.md
+          - Chain Breakers: fabrication/hand-tools/chain-breakers.md
+          - Files: fabrication/hand-tools/files.md
+          - Hammers: fabrication/hand-tools/hammers.md
+          - Hand Saws: fabrication/hand-tools/hand-saws.md
+          - Hex Keys: fabrication/hand-tools/hex-keys.md
+          - Knives: fabrication/hand-tools/knives.md
+          - Levels: fabrication/hand-tools/levels.md
+          - Marking Tools: fabrication/hand-tools/marking-tools.md
+          - Measuring Tools: fabrication/hand-tools/measuring-tools.md
+          - Pliers: fabrication/hand-tools/pliers.md
+          - Punches: fabrication/hand-tools/punches.md
+          - Screwdrivers: fabrication/hand-tools/screwdrivers.md
+          - Sockets: fabrication/hand-tools/sockets.md
+          - Squares: fabrication/hand-tools/squares.md
+          - Vises: fabrication/hand-tools/vises.md
           - Wrenches: fabrication/hand-tools/wrench.md
       - Power Tools:
         - Power Drill: fabrication/power-tools/drill.md
