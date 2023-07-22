@@ -51,7 +51,31 @@ nav:
         - Continuous Deployment: programming/advanced-topics/continuous-deployment.md
   - Electrical:
     - Electrical Overview: electrical/overview.md
-    - Electrical Diagrams: electrical/electrical-diagrams.md
+    - Safety:
+      - Robot Interaction: electrical/safety/robot-interaction.md
+      - Electrical Safety: electrical/safety/electrical-safety.md
+    - Theoretical:
+      - Voltage: electrical/theoretical/voltage.md
+      - Current: electrical/theoretical/current.md
+      - Resistance: electrical/theoretical/resistance.md
+      - Wiring Gauges: electrical/theoretical/wiring-gauges.md
+      - Ohm's Law: electrical/theoretical/ohms-law.md
+      - Kirchhoff's Laws: electrical/theoretical/kirchhoffs-laws.md
+      - Series Circuits: electrical/theoretical/series-circuits.md
+      - Parallel Circuits: electrical/theoretical/parallel-circuits.md
+      - Series-Parallel Circuits: electrical/theoretical/series-parallel-circuits.md
+      - Capacitors: electrical/theoretical/capacitors.md
+      - Inductors: electrical/theoretical/inductors.md
+      - Transformers: electrical/theoretical/transformers.md
+      - Diodes: electrical/theoretical/diodes.md
+      - Microcontrollers: electrical/theoretical/microcontrollers.md
+      - Microprocessors: electrical/theoretical/microprocessors.md
+    - Systems:
+      - Power Distribution: electrical/systems/power-distribution.md
+      - CAN Bus: electrical/systems/can-bus.md
+      - Pneumatics: electrical/systems/pneumatics.md
+      - Sensors: electrical/systems/sensors.md
+      - Electrical Diagrams: electrical/systems/electrical-diagrams.md
   - Design:
     - Design Overview: design/overview.md
   - Fabrication:
@@ -60,7 +84,7 @@ nav:
           - Calipers: fabrication/hand-tools/calipers.md
           - Chain Breakers: fabrication/hand-tools/chain-breakers.md
           - Files: fabrication/hand-tools/files.md
-          - Hammers: fabrication/hand-tools/hammers.md
+          - Hammers: fabrication/hand-tools/hammer.md
           - Hand Saws: fabrication/hand-tools/hand-saws.md
           - Hex Keys: fabrication/hand-tools/hex-keys.md
           - Knives: fabrication/hand-tools/knives.md
@@ -69,7 +93,7 @@ nav:
           - Measuring Tools: fabrication/hand-tools/measuring-tools.md
           - Pliers: fabrication/hand-tools/pliers.md
           - Punches: fabrication/hand-tools/punches.md
-          - Screwdrivers: fabrication/hand-tools/screwdrivers.md
+          - Screwdrivers: fabrication/hand-tools/screwdriver.md
           - Sockets: fabrication/hand-tools/sockets.md
           - Squares: fabrication/hand-tools/squares.md
           - Vises: fabrication/hand-tools/vises.md
@@ -120,8 +144,8 @@ plugins:
   - search
   - glightbox
   - offline
-  - social:
-      enabled: !ENV [CI, false]
+#  - social:
+#      enabled: false
 
 markdown_extensions:
   - abbr
