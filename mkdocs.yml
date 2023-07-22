@@ -144,8 +144,8 @@ plugins:
   - search
   - glightbox
   - offline
-#  - social:
-#      enabled: false
+  - social:
+      enabled: !ENV [CI, false]
 
 markdown_extensions:
   - abbr
