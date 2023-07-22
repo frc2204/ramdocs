@@ -86,12 +86,16 @@ nav:
       - File Types:
           - Drawing Exchange Format (DXF): fabrication/file-types/dxf.md
   - Business:
-    - Business Overview: business/overview.md
+    - Overview: business/overview.md
+    - Tools: business/tools.md
+    - Resources:
+        - Branding: business/resources/branding.md
 
 
 theme:
   name: material
   logo: assets/logo_512.png
+  favicon: assets/favicon.ico
   features:
     - navigation.tabs
     - navigation.expand
