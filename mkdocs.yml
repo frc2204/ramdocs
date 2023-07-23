@@ -8,7 +8,6 @@ nav:
   - Programming:
     - Programming Overview: programming/overview.md
     - Kotlin:
-        - Introduction: programming/kotlin/introduction.md
         - Fundamentals:
           - Introduction to Programming: programming/kotlin/fundamentals/intro-to-programming.md
           - Introduction to Kotlin: programming/kotlin/fundamentals/intro-to-kotlin.md
@@ -19,6 +18,7 @@ nav:
           - Functions: programming/kotlin/fundamentals/functions.md
           - Collections: programming/kotlin/fundamentals/collections.md
           - Maps: programming/kotlin/fundamentals/maps.md
+          - Common Mistakes: programming/kotlin/fundamentals/common-mistakes.md
         - Object Oriented Programming:
           - Classes: programming/kotlin/oop/classes.md
           - Inheritance: programming/kotlin/oop/inheritance.md
@@ -36,7 +36,6 @@ nav:
         - Github: programming/version-control/github.md
         - Git + IntelliJ: programming/version-control/git-intellij.md
         - Git Development Patterns: programming/version-control/git-dev-patterns.md
-        - Git WTFs: programming/version-control/git-wtfs.md
         - Git Practice Activity: programming/version-control/git-practice-activity.md
     - Advanced Topics:
         - PID Controllers: programming/advanced-topics/pid-control.md
@@ -174,8 +173,11 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/katex.js
+  - javascripts/kotlin.js
+  - https://unpkg.com/kotlin-playground@1
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 extra_css:
+  - stylesheets/kotlin.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css

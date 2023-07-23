@@ -1,0 +1,97 @@
+.executable-fragment {
+    border-radius: 8px;
+    overflow: hidden;
+    border: none !important;
+}
+
+.CodeMirror, .CodeMirror pre, .CodeMirror .CodeMirror-code, .CodeMirror .CodeMirror-code pre {
+    font-family: var(--md-code-font-family);
+    font-size: 13px;
+}
+
+
+.CodeMirror {
+    color: var(--md-code-hl-punctuation-color) !important;
+    background: var(--md-code-bg-color) !important;
+}
+
+.CodeMirror-scroll {
+    height: auto !important;
+}
+
+.CodeMirror .CodeMirror-lines pre.CodeMirror-line, .CodeMirror .CodeMirror-lines pre.CodeMirror-line-like {
+    font-variant-ligatures: none;
+}
+
+.cm-keyword {
+    color: var(--md-code-hl-keyword-color) !important;
+}
+
+.cm-def {
+    color: var(--md-code-hl-function-color) !important;
+}
+
+.cm-variable {
+    color: var(--md-code-hl-name-color) !important;
+}
+
+.cm-string {
+    color: var(--md-code-hl-string-color) !important;
+}
+
+.cm-comment {
+    color: var(--md-code-hl-comment-color) !important;
+}
+
+.cm-operator {
+    color: var(--md-code-hl-operator-color) !important;
+}
+
+.CodeMirror-gutters {
+    display: none !important;
+}
+
+.CodeMirror-lines {
+    padding: 8px 16px !important;
+}
+
+.CodeMirror-cursor {
+    border-left: 2px solid var(--md-code-hl-name-color) !important;
+}
+
+.js-code-output-executor {
+    border-top: none !important;
+}
+
+.code-output {
+    padding-left: 16px !important;
+}
+
+.run-button {
+    top: .5rem !important;
+    right: .5rem !important;
+
+}
+
+.console-close {
+    margin-right: .5rem !important;
+    background-color: #0000 !important;
+    border-radius: 50%;
+}
+
+.console-close:hover {
+    background-color: #FF605C !important;
+}
+
+.output-wrapper {
+    background-color: var(--md-code-bg-color) !important;
+    border-bottom: none !important;
+}
+
+.standard-output {
+    color: var(--md-code-hl-punctuation-color) !important;
+}
+
+.CodeMirror-sizer {
+    padding-bottom: 4px !important;
+}
