@@ -17,7 +17,7 @@ To create an account, go to [github.com](https://github.com/signup) and follow t
 Once you have an account, you can join an organization. Submit your Github username to the programming lead, and you should receive an invite to join the organization in your email. This gives you read and write access to the organization's repositories.
 
 ### Student Developer Pack (Optional)
-GitHub offers a [Student Developer Pack](https://education.github.com/pack) that gives students access to a bunch of free software and services. This includes free access to GitHub Pro, which allows you to create private repositories.
+GitHub offers a [Student Developer Pack](https://education.github.com/pack) that gives students access to a bunch of free software and services. This includes free access to GitHub Pro and even the Jetbrains Suite of IDEs.
 !!! tip
     The software and access included with GitHub's Student Developer pack is worth well over **$500+ per year**. If your looking for access to software and services, this is a definite must-have.
 
