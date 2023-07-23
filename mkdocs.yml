@@ -8,6 +8,7 @@ nav:
   - Programming:
     - Programming Overview: programming/overview.md
     - Kotlin:
+        - Introduction: programming/kotlin/introduction.md
         - Fundamentals:
           - Introduction to Programming: programming/kotlin/fundamentals/intro-to-programming.md
           - Introduction to Kotlin: programming/kotlin/fundamentals/intro-to-kotlin.md
