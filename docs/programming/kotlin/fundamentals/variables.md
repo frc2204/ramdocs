@@ -56,23 +56,6 @@ When we evaluate a call expression, we
 
     Keep in mind this whole time, we are evaluating each operand from left to right. Once we encounter another call expression, we begin the call expression evaluation for the specific call expression. Finally we apply the operator to the operands.
 
-### String Templates
-It's useful to know how to print the contents of variables to standard output. You can do this with string templates `$`, which gives access data stored in variables and other objects, and convert them into strings. 
-
-!!! info
-    A string value is a sequence of characters in double quotes `""`. This can include words, sentences, and even whole paragraphs. 
-    
-```kotlin
-fun main() {
-    val customers = 10
-    println("There are $customers customers")
-    // There are 10 customers
-
-    println("There are ${customers + 1} customers")
-    // There are 11 customers
-}
-```
-
 ## Assignment Statements
 All programs need to be able to store data, and variables help you to do just that. In Kotlin, you can declare:
 
@@ -169,9 +152,6 @@ fun main() {
 //sampleEnd
 }
 ```
-??? tip "Stuck? Here's a hint"
-    Think about how you can use [string templates](#string-templates) to print the contents of variables to standard output.
-
 ??? success "Solution"
     The solution uses [string templates](#string-templates) to get the values of `name` and `age` and combine them into the expected format.
     ```kotlin
@@ -208,4 +188,59 @@ Kotlin was able to tell in the previous example that customers has type: `Int` t
     //sampleEnd
     }
     ```
+=== "Java"
+    ```java
+    public class Main {
+        public static void main(String[] args) {
+            int customers = 10;
 
+            // Some customers leave the queue
+            customers = 8;
+
+            customers = customers + 3; // Example of addition: 11
+            customers += 7;            // Example of addition: 18
+            customers -= 3;            // Example of subtraction: 15
+            customers *= 2;            // Example of multiplication: 30
+            customers /= 3;            // Example of division: 10
+
+            System.out.println(customers); // 10
+        }
+    }
+    ```
+
+!!! tip
+    `+=`, `-=`, `*=`, `/=`, and `%=` are augmented assignment operators. Essentially, they assign a new value to the variable on the left side of the operator with the result of the operation on the right side of the operator.
+
+    For example, `customers += 7` is equivalent to `customers = customers + 7`, and `customers /= 3` is equivalent to `customers = customers / 3`.
+
+    For more information, see [Augmented assignments](https://kotlinlang.org/docs/operator-overloading.html#augmented-assignments)
+
+| Category               | Data Type                          | Description                                               |
+|------------------------|------------------------------------|-----------------------------------------------------------|
+| Integers               | `Byte`, `Short`, `Int`, `Long`     | Any whole number that can be positive, negative, or zero. |
+| Unsigned Integers      | `UByte`, `UShort`, `UInt`, `ULong` | Any integer, but cannot be negative                       | 
+| Floating Point Numbers | `Float`, `Double`                  | Any decimal number                                        | 
+| Boolean                | `Boolean`                          | Represents a `true` or `false` state                      |
+| Characters             | `Char`                             | Any single character Unicode or ASCII character           | 
+| String                 | `String`                           | Any combination of characters                             |
+
+### Advanced Assignment Statements
+With your new-found knowledge of basic types, you unlock the ability to use more advanced assignment statements. While these are not common in FRC, they are still useful to know about.
+
+```kotlin
+fun main() {
+//sampleStart
+    // Variable declared without initialization
+    val d: Int
+    // Variable initialized
+    d = 3
+
+    // Variable explicitly typed and initialized
+    val e: String = "hello"
+
+    // Variables can be read because they have been initialized
+    println(d) // 3
+    println(e) // hello
+//sampleEnd
+}
+```
