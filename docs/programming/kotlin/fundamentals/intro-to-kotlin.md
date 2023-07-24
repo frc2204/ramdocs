@@ -113,7 +113,7 @@ Why does this typing matter though? Let's break this down into a couple of exerc
     If your answer was `John Doe`, you would be wrong. That would be the result if we were to add `John` and `Doe` with a space in between them. Don't worry about that though :hugging:
 
 ??? success "Adding two numbers, `14` + `3` = `???`"
-    If we were to add two numbers, `14` and `3`, we would get `17`. This is because the `+` operator is defined for numbers, and multiplies them together. Makes sense, right?
+    If we were to add two numbers, `14` and `3`, we would get `17`. This is because the `+` operator is defined for numbers, and adds them together. Makes sense, right?
 
 ??? failure "What about two **words**, `1` + `1` = `???`"
     If we were to add two words, `1` and `1`, we would get `11`. This is because the `+` operator is defined for words, and concatenates them together. 
