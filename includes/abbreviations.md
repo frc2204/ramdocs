@@ -10,3 +10,4 @@
 *[CI]: Continuous Integration
 *[CD]: Continuous Deployment
 *[API]: Application Programming Interface
+*[LLMs]: Large Language Models

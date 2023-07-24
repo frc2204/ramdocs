@@ -129,6 +129,7 @@ theme:
     - content.action.edit
     - content.action.view
     - navigation.footer
+    - content.tabs.link
 
   palette:
     - scheme: default
@@ -152,11 +153,14 @@ markdown_extensions:
   - admonition
   - def_list
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.details
   - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md

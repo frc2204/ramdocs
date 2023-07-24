@@ -54,7 +54,12 @@ If your stuck, don't worry! We've all been there. Here are some resources that y
 - [Chief Delphi](https://www.chiefdelphi.com/) is a forum for all things specific to FRC. 
 - [Stack Overflow](https://stackoverflow.com/) is a forum for all things programming (coding, debugging, etc.). Chances are, if you have a question or meet a weird bug, someone else has asked about it.
 - [Google](https://www.google.com/) is your friend. If you have a question, chances are someone else has asked it before. If you have an error, chances are someone else has encountered it before. If you have a problem, chances are someone else has solved it before. If you have a question, error, or problem, Google it.
-- [ChatGPT](https://chat.openai.com/) is a Large Language Model that can answer questions, generate code, and even help debug. It's not perfect, but it's pretty good at answering questions about programming, as well as explaining concepts.
+- [ChatGPT](https://chat.openai.com/) or [Bard](https://bard.google.com/) are a LLMs that can answer questions, generate code, and even help debug. It's not perfect, but it's pretty good at answering questions about programming, as well as explaining concepts.
 
 ## Credits
-- James Ding
+- [James Ding](https://github.com/twangodev)
+- [COMPSCI 61A: Structure and Interpretation of Computer Programs](https://cs61a.org/)
+- [Structure and Interpretation of Computer Programs, 2nd ed.](https://web.mit.edu/6.001/6.037/sicp.pdf)
+- [Composing Programs](https://www.composingprograms.com)
+- [Kotlin Documentation](https://kotlinlang.org/docs/home.html)
+- COMPSCI 61B: Data Structures
