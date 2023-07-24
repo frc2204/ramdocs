@@ -86,9 +86,11 @@ When you declare a variable, you assign it an **expression** with the `=` operat
     === "Kotlin"
         ```kotlin
         fun main() {
+        //sampleStart
             val x = 22
             val y = 4
             println(x + y)
+        //sampleEnd
         }
         ```
     === "Java"
@@ -107,12 +109,14 @@ When you declare a variable, you assign it an **expression** with the `=` operat
     === "Kotlin"
         ```kotlin
         fun main() {
+        //sampleStart
             var bankAccount = 100
             println("My bank account has:")
             println(bankAccount)
 
             bankAccount = 80;
             println("Just spent $20, I now have $bankAccount left")
+        //sampleEnd
         }
         ```
     === "Java"
@@ -158,9 +162,11 @@ Complete the code to make the program print "Mary is 20 years old" by using the 
 
 ```kotlin
 fun main() {
+//sampleStart
     val name = "Mary"
     val age = 20
     // Write your code here
+//sampleEnd
 }
 ```
 ??? tip "Stuck? Here's a hint"
@@ -170,9 +176,36 @@ fun main() {
     The solution uses [string templates](#string-templates) to get the values of `name` and `age` and combine them into the expected format.
     ```kotlin
     fun main() {
+    //sampleStart
         val name = "Mary"
         val age = 20
         println("$name is $age years old")
+    //sampleEnd
+    }
+    ```
+
+## Basic Data Types
+Every variable and data structure in Kotlin has a data type. Data types are important because they tell the compiler what you are allowed to do with that variable or data structure. In other words, what functions and properties it has.
+
+Kotlin was able to tell in the previous example that customers has type: `Int` through a method known as type inference. Because `customers` was assigned an integer value, Kotlin infers that customers has numerical data type: `Int`. As a result, the compiler knows that you can perform arithmetic operations with `customers`
+
+=== "Kotlin"
+    ```kotlin
+    fun main() {
+    //sampleStart
+        var customers = 10
+
+        // Some customers leave the queue
+        customers = 8
+
+        customers = customers + 3 // Example of addition: 11
+        customers += 7            // Example of addition: 18
+        customers -= 3            // Example of subtraction: 15
+        customers *= 2            // Example of multiplication: 30
+        customers /= 3            // Example of division: 10
+
+        println(customers) // 10
+    //sampleEnd
     }
     ```
 
