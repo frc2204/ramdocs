@@ -166,3 +166,5 @@ This is a simple program that prints `Hello World!` to the console. Let's break 
 !!! info
     Functions are discussed in more detail in a couple of sections. Until then, all examples use the `main()` function.
 
+!!! tip
+    From here on, you can expect to see most examples in both Kotlin and Java. This can help you if you already know Java, or if you want to learn Java in the future.

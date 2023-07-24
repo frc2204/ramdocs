@@ -39,6 +39,10 @@
     color: var(--md-code-hl-string-color) !important;
 }
 
+.cm-number {
+    color: var(--md-code-hl-number-color) !important;
+}
+
 .cm-comment {
     color: var(--md-code-hl-comment-color) !important;
 }
