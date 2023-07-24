@@ -133,8 +133,27 @@ When you declare a variable, you assign it an **expression** with the `=` operat
     Is it alright to legal everything as a `var`? Yes! No ones stopping you :wink:
 
     However, it is considered good practice to declare variables as `val` by default, and only declare variables as `var` if necessary. Declaring variables properly can not only let other people know how you intend to use the variable, but also help the compiler optimize your code and catch any potential bugs.
-    
-## Practice
+
+## String Templates
+It's useful to know how to print the contents of variables to standard output. You can do this with string templates `$`, which gives access data stored in variables and other objects, and convert them into strings.
+
+!!! info
+    A string value is a sequence of characters in double quotes `""`. This can include words, sentences, and even whole paragraphs. See more about Strings [here](#basic-data-types)
+
+```kotlin
+fun main() {
+//sampleStart
+    val customers = 10
+    println("There are $customers customers")
+    // There are 10 customers
+
+    println("There are ${customers + 1} customers")
+    // There are 11 customers
+//sampleEnd
+}
+```
+
+### Practice
 Complete the code to make the program print "Mary is 20 years old" by using the information provided in the variables `name` and `age`.
 
 ```kotlin
