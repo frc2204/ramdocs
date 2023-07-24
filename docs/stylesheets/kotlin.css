@@ -1,5 +1,4 @@
 .executable-fragment {
-    border-radius: 8px;
     overflow: hidden;
     border: none !important;
 }
@@ -13,6 +12,7 @@
 .CodeMirror {
     color: var(--md-code-hl-punctuation-color) !important;
     background: var(--md-code-bg-color) !important;
+    border-radius: 8px;
 }
 
 .CodeMirror-scroll {
@@ -21,6 +21,11 @@
 
 .CodeMirror .CodeMirror-lines pre.CodeMirror-line, .CodeMirror .CodeMirror-lines pre.CodeMirror-line-like {
     font-variant-ligatures: none;
+}
+
+.CodeMirror-linebackground.unmodifiable-line {
+    background: none !important;
+    padding: 8px 0px !important;
 }
 
 .cm-keyword {
@@ -52,11 +57,12 @@
 }
 
 .CodeMirror-gutters {
-    display: none !important;
+    background-color: inherit !important;
+    border-right: none !important;
 }
 
 .CodeMirror-lines {
-    padding: 8px 16px !important;
+    padding: 8px 0 !important;
 }
 
 .CodeMirror-cursor {
@@ -72,9 +78,13 @@
 }
 
 .run-button {
-    top: .5rem !important;
+    top: calc(.5rem + 16px) !important;
     right: .5rem !important;
 
+}
+
+.code-area {
+    margin-top: 16px;
 }
 
 .console-close {
@@ -98,4 +108,16 @@
 
 .CodeMirror-sizer {
     padding-bottom: 4px !important;
+}
+
+.fold-button {
+    width: 24px !important;
+    height: 24px !important;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M19 11.005v2.103h-6.013L12.988 19h-2.117l.001-5.892H5v-2.103h5.872V5h2.114l.002 6.005H19z' fill='%2327282C' fill-opacity='.75'/%3E%3C/svg%3E") !important;
+}
+
+.code-area._unfolded .fold-button {
+    top: -13px;
+    left: calc(50% - 11px);
+    transform: rotate(-45deg);
 }
