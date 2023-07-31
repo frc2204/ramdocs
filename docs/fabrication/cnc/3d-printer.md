@@ -22,17 +22,24 @@ PET-G or Polyethylene Terephthalate Glycol is a polymer that is very similar to 
 ### ABS (Acrylonitrile Butadiene Styrene)
 ABS or Acrylonitrile Butadiene Styrene is a very interesting type of 3D printing filament. ABS is once again popular for 3D printing, but nto as popular as PLA or PET-G because it requires an enclosure and puts off toxic fumes. ABS needs an enclosure, a heated bed, and a chamber filter to filter out the toxic fumes. ABS has a glass transition temperature of about 105°. ABS likes to be printed at 250°C. When printing with ABS, you parts will strink due to warping so take that into consideration when designing. 
 ## Components
-### Hotend 
+### Hotend
+The hotend is the piece of a 3D printer that heats and extruders the molten filament onto the bed.
+
 ![Picture of Nozzle](https://cdn.discordapp.com/attachments/898001388288741426/1135474400028807168/Extruder.png)
-The hotend is the piece of a 3D printer that heats and extruders the molten filament onto the bed. 
+
 ### Extruder
+The extruder is the piece of the 3D printer that pushes the filament into the hotend creating flow.
+
 ![Picture of Extruder](https://cdn.discordapp.com/attachments/898001388288741426/1135474401131905114/Real_Extruder.png)
-The extruder is the piece of the 3D printer that pushes the filament into the hotend creating flow. 
+
 ### Bed
+The bed is where the molten filament sits and "lives" until you take it off the bed. This bed is typically heated to help the filament really stick down. There is typically a steel plate with a coating that magnetically attaches to the bed to help with removal. The most common type is Textured PEI. Another alternative to a steel plate is a glass bed. When using a glass bed, be sure to put some glue stick down to help with removal of the print.
+
 ![Picture of Bed](https://cdn.discordapp.com/attachments/898001388288741426/1135476188974948443/IMG_4184.jpg)
-The bed is where the molten filament sits and "lives" until you take it off the bed. This bed is typically heated to help the filament really stick down. There is typically a steel plate with a coating that magnetically attaches to the bed to help with removal. The most common type is Textured PEI. Another alternative to a steel plate is a glass bed. When using a glass bed, be sure to put some glue stick down to help with removal of the print. 
+
 ## When we use 3D Printers
 We use 3D printers to maker complex and intricate parts that can only be achieved by 3D printing. We also use this to make replacement part for tools, use them as templates, and use them as parts on our robot. An example of this is on our 2023 robot as shown below:
+
 ![2023 Charged Up Robot](https://cdn.discordapp.com/attachments/898001388288741426/1135484459953684550/Spacer.png)
 
 ## Getting Started
@@ -60,5 +67,5 @@ Now, you will want to look at the sliced model, and look for areas that may need
 After comfirming that the model is ready to print, you will need to press print on the top right. 
 ![Print](https://cdn.discordapp.com/attachments/898001388288741426/1135489503105142816/Print.png)
 
-Finally, a screen will pop up, prompting you to send it to the printer. Click "Send", and you have successfully send off your first 3D print. Have fun printing!
+Finally, a screen will pop up, prompting you to send it to the printer. Click "Send", and you have successfully send off your first 3D print. 
 ![Send](https://cdn.discordapp.com/attachments/898001388288741426/1135489999559721032/Send.png)
