@@ -60,5 +60,5 @@ Now, you will want to look at the sliced model, and look for areas that may need
 After comfirming that the model is ready to print, you will need to press print on the top right. 
 ![Print](https://cdn.discordapp.com/attachments/898001388288741426/1135489503105142816/Print.png)
 
-Finally, a screen will pop up, prompting you to send it to the printer. Click "Send", and you have successfully send off your first 3D print. 
+Finally, a screen will pop up, prompting you to send it to the printer. Click "Send", and you have successfully send off your first 3D print. Have fun printing!
 ![Send](https://cdn.discordapp.com/attachments/898001388288741426/1135489999559721032/Send.png)
