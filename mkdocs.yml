@@ -12,12 +12,10 @@ nav:
           - Introduction to Programming: programming/kotlin/fundamentals/intro-to-programming.md
           - Introduction to Kotlin: programming/kotlin/fundamentals/intro-to-kotlin.md
           - Variables: programming/kotlin/fundamentals/variables.md
-          - Conditionals: programming/kotlin/fundamentals/conditionals.md
+          - Collections: programming/kotlin/fundamentals/collections.md
           - Control Flow: programming/kotlin/fundamentals/control-flow.md
           - Loops: programming/kotlin/fundamentals/loops.md
           - Functions: programming/kotlin/fundamentals/functions.md
-          - Collections: programming/kotlin/fundamentals/collections.md
-          - Maps: programming/kotlin/fundamentals/maps.md
           - Common Mistakes: programming/kotlin/fundamentals/common-mistakes.md
         - Object Oriented Programming:
           - Classes: programming/kotlin/oop/classes.md
