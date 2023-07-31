@@ -185,20 +185,14 @@ git checkout -b feature-branch
 ```mermaid
 gitGraph
     commit
-    commit
     branch cool-feature
     checkout cool-feature
     commit
-    commit
     checkout main
-    commit
-    commit
     checkout cool-feature
     commit
     checkout main
     merge cool-feature
-    commit
-    
 ```
 
 
