@@ -104,10 +104,11 @@ nav:
         - Drill Press: fabrication/power-tools/drill-press.md
         - Impact Driver: fabrication/power-tools/impact-driver.md
         - Miter Saw: fabrication/power-tools/miter-saw.md
-      - Computer Numerical Control (CNC):
-          - 3D Printing: fabrication/cnc/3d-printer.md
-          - Additive vs. Subtractive Manufacturing: fabrication/cnc/additive-vs-subtractive.md
-          - Laser Cutting: fabrication/cnc/laser-cutter.md
+      - Manufacturing:
+          - Additive Manufacturing: fabrication/manufacturing/additive-manufacturing.md
+          - Subtractive Manufacturing: fabrication/manufacturing/subtractive-manufacturing.md
+          - 3D Printing: fabrication/manufacturing/3d-printer.md
+          - Laser Cutting: fabrication/manufacturing/laser-cutter.md
       - File Types:
           - Drawing Exchange Format (DXF): fabrication/file-types/dxf.md
   - Business:
