@@ -32,7 +32,8 @@ nav:
         - Git In Action (Single Repository): programming/version-control/git-in-action-single.md
         - Git In Action (Multiple Repositories): programming/version-control/git-in-action-multiple.md
         - Github: programming/version-control/github.md
-        - Git + IntelliJ: programming/version-control/git-intellij.md
+        - Pull Requests: programming/version-control/pull-requests.md
+        - Git, GitHub, and IntelliJ: programming/version-control/git-github-intellij.md
         - Git Development Patterns: programming/version-control/git-dev-patterns.md
         - Git Practice Activity: programming/version-control/git-practice-activity.md
     - Advanced Topics:
