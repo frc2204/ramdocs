@@ -1,7 +1,7 @@
 # 3D Printers
 ![Picture of Ultimaker 3D Printer](https://cdn.discordapp.com/attachments/983922080879869962/1135469515489148998/Ultimaker_History_-_6_Ultimaker_2.png)
 ## What is a 3D Printer?
-A 3D printer creates a 3D object layer by layer only where material is needed. In doing this, you can make custom parts for exactly what you want. If you can design it, a 3D printer can make it. :D
+3D printing is always considered a form of additive manufacturing. A 3D printer creates a 3D object layer by layer only where material is needed. In doing this, you can make custom parts for exactly what you want. If you can design it, a 3D printer can make it. :D
 ## Why use a 3D Printer?
 Using a 3D printer versus something like a Laser Cutter has its advantages. With a Laser Cutter, you are limited to the piece of material that you put in. But, if you are creating multiple flat objects, a Laser Cutter can do it faster, and more efficiently. Typically, when using a Laser Cutter, you also need a air filtration system, but with some materials in 3D Printing, you do not need a filtration system.
 
