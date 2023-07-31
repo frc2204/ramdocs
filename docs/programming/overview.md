@@ -21,7 +21,7 @@ IntelliJ IDEA is our team's primary Integrated Development Environment. It is a 
 ### Content Covered
 
 #### Programming Fundamentals
-:   Variables, Conditionals, Control Flow, Loops, Functions, Collections, Maps
+:   Variables, Conditionals, Control Flow, Loops, Functions, Collections
 
 !!! info
     Intro to Computer Science covers up to these concepts. If you have taken ICS, you should be familiar with up to these concepts.
