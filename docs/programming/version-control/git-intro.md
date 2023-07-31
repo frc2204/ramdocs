@@ -22,14 +22,11 @@ A branch is a separate version of a repository. Branches are used to develop fea
 ```mermaid
 gitGraph
    commit
-   commit
    branch develop
    checkout develop
    commit
-   commit
    checkout main
    merge develop
-   commit
    commit
 ```
 !!! info
