@@ -156,6 +156,22 @@ fun main() {
 }
 ```
 
+!!! tip "Comments"
+    You may have noticed the `//` in the code above. This is a comment. Comments are ignored by the language, and typically provide information about the code. In this case, the comments are used to show the output of the code.
+    Another way to comment is with `/*` and `*/`. This is useful for multi-line comments.
+
+    ```kotlin
+    fun main() {
+    //sampleStart
+        /* This is a multi-line comment
+    It can span multiple lines
+    Woahhh!
+    */
+        println("Yipee")
+    //sampleEnd
+    }
+    ```
+
 ### Practice
 Complete the code to make the program print "Mary is 20 years old" by using the information provided in the variables `name` and `age`.
 
