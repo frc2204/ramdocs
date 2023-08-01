@@ -185,27 +185,20 @@ git checkout -b feature-branch
 ```mermaid
 gitGraph
     commit
-    commit
     branch cool-feature
     checkout cool-feature
     commit
-    commit
     checkout main
-    commit
-    commit
     checkout cool-feature
     commit
     checkout main
     merge cool-feature
-    commit
-    
 ```
-
 
 The code you change should only affect the feature you're working on, and not the main branch. This way, code remains somewhat isolated, and conflicts are less likely to occur.
 
 !!! info
-    This pattern is called [Feature Branching](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow), and is our team's preferred workflow.
+    This pattern is called [Feature Branching](./git-dev-patterns.md#feature-branching), and is our team's preferred workflow. We'll cover this in the next couple sections.
 
 ### Communication
 

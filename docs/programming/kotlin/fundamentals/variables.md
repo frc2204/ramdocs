@@ -86,6 +86,12 @@ When you declare a variable, you assign it an **expression** with the `=` operat
             }
         }
         ```
+    === "Python"
+        ```python
+        x = 22 # Variables in Python are mutable, but we can still treat them as read-only
+        y= 4
+        print(x + y)
+        ```
 
 !!! example "Example of `var`"
     Let's say my bank account has `$100` in it. I can declare a mutable variable `bankAccount` with the initial value of `100`.
@@ -98,7 +104,7 @@ When you declare a variable, you assign it an **expression** with the `=` operat
             println(bankAccount)
 
             bankAccount = 80;
-            println("Just spent $20, I now have $bankAccount left")
+            println("Just spent $20, I now have $" + bankAccount + " left")
         //sampleEnd
         }
         ```
@@ -115,6 +121,16 @@ When you declare a variable, you assign it an **expression** with the `=` operat
             }
         }
         ```
+    === "Python"
+        ```python
+        bank_account = 100
+        print("My bank account has:")
+        print(bank_account)
+
+        bank_account = 80
+        print("Just spent $20, I now have $" + str(bank_account) + " left")
+        ```
+
 
 !!! question "Why not declare everything as a `var`?"
     Is it alright to legal everything as a `var`? Yes! No ones stopping you :wink:
@@ -139,6 +155,22 @@ fun main() {
 //sampleEnd
 }
 ```
+
+!!! tip "Comments"
+    You may have noticed the `//` in the code above. This is a comment. Comments are ignored by the language, and typically provide information about the code. In this case, the comments are used to show the output of the code.
+    Another way to comment is with `/*` and `*/`. This is useful for multi-line comments.
+
+    ```kotlin
+    fun main() {
+    //sampleStart
+        /* This is a multi-line comment
+    It can span multiple lines
+    Woahhh!
+    */
+        println("Yipee")
+    //sampleEnd
+    }
+    ```
 
 ### Practice
 Complete the code to make the program print "Mary is 20 years old" by using the information provided in the variables `name` and `age`.
@@ -191,7 +223,7 @@ Kotlin was able to tell in the previous example that customers has type: `Int` t
 === "Java"
     ```java
     public class Main {
-        public static void main(String[] args) {
+        public static void main(String[] args) { 
             int customers = 10;
 
             // Some customers leave the queue
@@ -206,6 +238,21 @@ Kotlin was able to tell in the previous example that customers has type: `Int` t
             System.out.println(customers); // 10
         }
     }
+    ```
+=== "Python"
+    ```python
+    customers = 10
+
+    # Some customers leave the queue
+    customers = 8
+    
+    customers = customers + 3 # Example of addition: 11
+    customers += 7            # Example of addition: 18
+    customers -= 3            # Example of subtraction: 15
+    customers *= 2            # Example of multiplication: 30
+    customers /= 3            # Example of division: 10
+
+    print(customers) # 10
     ```
 
 !!! tip

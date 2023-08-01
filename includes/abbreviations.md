@@ -11,3 +11,4 @@
 *[CD]: Continuous Deployment
 *[API]: Application Programming Interface
 *[LLMs]: Large Language Models
+*[ASCII]: American Standard Code for Information Interchange

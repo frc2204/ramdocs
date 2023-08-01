@@ -21,33 +21,3 @@ GitHub offers a [Student Developer Pack](https://education.github.com/pack) that
 !!! tip
     The software and access included with GitHub's Student Developer pack is worth well over **$500+ per year**. If your looking for access to software and services, this is a definite must-have.
 
-## Pull Requests
-One of the core features of GitHub is pull requests. Pull requests allow you to propose changes to a repository, and then merge those changes into the repository.
-
-As our team uses GitHub, we'll expect you to work on features, and open pull requests to merge those features into the main repository. This allows us to review your code, and make sure that it works before merging it into the main repository.
-
-### Creating a Pull Request
-
-Github offers their own [documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) on creating pull requests. We'll go over the basics here.
-
-To create a pull request, you'll need to create a branch, and push that branch to GitHub. For more information on creating branches, see [Git In Action (Multiple Repositories)](git-in-action-multiple).
-
-Once you've pushed your branch to GitHub, you can create a pull request. To do this, go to the repository on GitHub, and click the "Pull Requests" tab. Then, click the "New Pull Request" button.
-
-???+ tip
-    GitHub may detect that you've pushed changes to a branch, and prompt you to create a pull request.
-
-    ![Pull Request Prompt](https://docs.github.com/assets/cb-34106/mw-1440/images/help/pull_requests/pull-request-compare-pull-request.webp)
-
-Next, GitHub will prompt you to select a base branch and a compare branch. The base branch is the branch that you want to merge your changes into. The compare branch is the branch that you want to merge into the base branch. Typically, the compare branch is the branch that you created.
-
-![Selecting the base and compare branches](https://docs.github.com/assets/cb-87213/mw-1440/images/help/pull_requests/pull-request-review-edit-branch.webp)
-
-Once you've selected the base and compare branches, you can click the "Create Pull Request" button. You'll be prompted to enter a title and description for your pull request. Once you've done this, you can click the "Create Pull Request" button again.
-
-Add the programming lead as a reviewer, and click the "Create Pull Request" button again. This will create the pull request, and notify the programming lead.
-
-![Adding Reviewers](https://cdn.discordapp.com/attachments/786053009964269591/1130239663723008011/image.png)
-
-Congratulations! You've created a pull request! :tada:
-

@@ -21,7 +21,7 @@ IntelliJ IDEA is our team's primary Integrated Development Environment. It is a 
 ### Content Covered
 
 #### Programming Fundamentals
-:   Variables, Conditionals, Control Flow, Loops, Functions, Collections, Maps
+:   Variables, Conditionals, Control Flow, Loops, Functions, Collections
 
 !!! info
     Intro to Computer Science covers up to these concepts. If you have taken ICS, you should be familiar with up to these concepts.
@@ -62,4 +62,7 @@ If your stuck, don't worry! We've all been there. Here are some resources that y
 - [Structure and Interpretation of Computer Programs, 2nd ed.](https://web.mit.edu/6.001/6.037/sicp.pdf)
 - [Composing Programs](https://www.composingprograms.com)
 - [Kotlin Documentation](https://kotlinlang.org/docs/home.html)
+- [GitHub Documentation](https://docs.github.com)
+- [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials/)
+- [IDEA Documentation](https://www.jetbrains.com/help/idea)
 - COMPSCI 61B: Data Structures
