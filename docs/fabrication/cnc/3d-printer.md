@@ -1,5 +1,5 @@
 # 3D Printers
-![Picture of Ultimaker 3D Printer](https://cdn.discordapp.com/attachments/983922080879869962/1135469515489148998/Ultimaker_History_-_6_Ultimaker_2.png)
+![Picture of My 3D Printer](https://cdn.discordapp.com/attachments/898001388288741426/1135831752846352385/IMG_4201.jpg)
 ## What is a 3D Printer?
 3D printing is always considered a form of additive manufacturing. A 3D printer creates a 3D object layer by layer only where material is needed. In doing this, you can make custom parts for exactly what you want. If you can design it, a 3D printer can make it. :grin:
 ## Why use a 3D Printer?
@@ -14,7 +14,7 @@ SLA or Stereolithography is a resin based form of 3D printing. This uses a UV ba
 SLS or Selective Laser Sintering is a very expensive form of 3D printing which uses lasers and a powder which is melted to form your 3D model. With SLS, you can print with extremely advanced materials, and even metal. The cleanup tends to be a little messy, and due to its price is usually only used in enterprise applications. 
 
 ## Common Types of Filament for FDM
-![Picture of Filament](https://cdn.discordapp.com/attachments/898001388288741426/1135480694538240000/lighter.png)
+![Picture of Filament](https://cdn.discordapp.com/attachments/898001388288741426/1135833129106559036/IMG_4202.jpg)
 ### PLA (Polylactic Acid)
 PLA or Polylactic Acid is a starch based filament, and is one of the most popular 3D printing filaments thanks to it not needing an enclosure, heated bed, and it not putting off toxic fumes. PLA has a glass transition temperature (around 65°C) which is the temperature where the material starts to deform. PLA prefers to be printed around 200°C. PLA is structurally strong, but deforms easily under pressures, and is not UV resistant. 
 ### PET-G (Polyethylene Terephthalate Glycol)
