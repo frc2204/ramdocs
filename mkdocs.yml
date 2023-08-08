@@ -3,6 +3,9 @@ site_name: 2204 Rambots Documentation
 repo_name: frc2204/ramdocs
 repo_url: https://github.com/frc2204/ramdocs
 
+site_url: https://docs.rambots.org/
+site_description: The official source of documentation and training materials for the 2204 Rambots
+
 nav:
   - Home: index.md
   - Programming:
@@ -121,6 +124,7 @@ theme:
   name: material
   logo: assets/logo_512.png
   favicon: assets/favicon.ico
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.expand
@@ -133,11 +137,15 @@ theme:
     - content.tabs.link
 
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -176,6 +184,10 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
 
+extra:
+  analytics:
+    provider: custom
+
 extra_javascript:
   - javascripts/katex.js
   - javascripts/kotlin.js
@@ -185,4 +197,5 @@ extra_javascript:
 
 extra_css:
   - stylesheets/kotlin.css
+  - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css

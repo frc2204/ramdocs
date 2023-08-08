@@ -8,22 +8,21 @@
 
 ## **Fonts**
 
+### Helvetica Neue
+
+![Helvetica](https://cdn.discordapp.com/attachments/1031787835587563564/1138342379284340786/2023-08-07_22-25.png)
+
+This is the default font used in assets and documents
+
+**Click [here](https://files.catbox.moe/41lvdp.zip) to download font files**
+
 ### Azonix
 
 ![Azonix](https://cdn.discordapp.com/attachments/988886251367178320/1132098809342734347/Azonix.png)
 
 This font is usually used in documents addressing the Rambots
 
-**Click [here](https://www.dafont.com/azonix.font) to download font files**
-
-### Arial
-
-![Arial](https://cdn.discordapp.com/attachments/988886251367178320/1132098809644711936/Arial.png)
-
-This is the default font used in assets and documents
-
-**Click [here](https://files.catbox.moe/5ssoi2.zip) to download font files**
-
+**Click [here](https://files.catbox.moe/eh6pwj.zip) to download font files**
 ## **Colors**
 
 ### Rambot Red
@@ -32,9 +31,9 @@ This is the default font used in assets and documents
 
 This color is primarily used as a background color. This color is also by our school.
 
-Color Code: `a31f36`
+Color Code: `#A31F36`
 
-RGB Code: `163 31 54`
+RGB Code: `(163, 31, 54)`
 
 ## **Logos**
 
