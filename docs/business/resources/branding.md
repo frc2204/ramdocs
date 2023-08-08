@@ -14,7 +14,7 @@
 
 This is the default font used in assets and documents
 
-**Click [here](https://files.catbox.moe/5ssoi2.zip) to download font files**
+**Click [here](https://files.catbox.moe/41lvdp.zip) to download font files**
 
 ### Azonix
 
@@ -22,7 +22,7 @@ This is the default font used in assets and documents
 
 This font is usually used in documents addressing the Rambots
 
-**Click [here](https://www.dafont.com/azonix.font) to download font files**
+**Click [here](https://files.catbox.moe/eh6pwj.zip) to download font files**
 ## **Colors**
 
 ### Rambot Red
