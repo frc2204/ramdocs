@@ -3,6 +3,8 @@ site_name: 2204 Rambots Documentation
 repo_name: frc2204/ramdocs
 repo_url: https://github.com/frc2204/ramdocs
 
+edit_uri: edit/main/docs/
+
 site_url: https://docs.rambots.org/
 site_description: The official source of documentation and training materials for the 2204 Rambots
 
