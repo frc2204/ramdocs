@@ -87,9 +87,11 @@ nav:
       - Hand Tools:
           - Calipers: fabrication/hand-tools/calipers.md
           - Chain Breakers: fabrication/hand-tools/chain-breakers.md
+          - Deburrers: fabrication/hand-tools/deburrers.md
           - Files: fabrication/hand-tools/files.md
+          - Hack Saws: fabrication/hand-tools/hack-saws.md
           - Hammers: fabrication/hand-tools/hammer.md
-          - Hand Saws: fabrication/hand-tools/hand-saws.md
+          - Hand Saws: fabrication/hand-tools/hand-saw.md
           - Hex Keys: fabrication/hand-tools/hex-keys.md
           - Knives: fabrication/hand-tools/knives.md
           - Levels: fabrication/hand-tools/levels.md
