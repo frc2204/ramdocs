@@ -1,5 +1,8 @@
 name: Build Documentation
 on:
+  push:
+    branches:
+      - main
   pull_request:
 permissions:
   contents: write
@@ -15,6 +18,6 @@ jobs:
         run: |
           python -m pip install pipenv
       - name: Install dependencies
-        run: | 
+        run: |
           pipenv sync
       - run: pipenv run mkdocs build
