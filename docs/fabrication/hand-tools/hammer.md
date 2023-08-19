@@ -1,4 +1,5 @@
 # Hammers
+![Picture of Hammer](https://cdn.discordapp.com/attachments/983922080879869962/1142359709454696519/71tTWyypTKL.png)
 ## Using A Hammer
 Using a hammer may seem straight forward right? You swing and hit, but there is much more to it than just that. I will just barely scratch the surface on how to use a hammer and all the uses for a hammer. 
 ## SAFTEY!
@@ -16,8 +17,7 @@ Swinging your hammer should not be a big swing. You just need to bring the hamme
 #### Controlling Force
 While swinging your hammer, you should get a feel of how much force you need to strike your object in the direction you want. If it is going in the wrong direction, move it in the opposite direction of where you want it to go. You'll know if your doing it right!
 #### Removal of Nails
-## Different Types of Hammers
-### Claw Hammers
-### Ball-Peen Hammers
-### Sledgehammers
-### Mallets 
+To remove nails, use the claw part of the hammer and pry up. You may need to get in a better position to get more leverage.
+## Mallets
+Mallets are used to hit pieces that you do not want a indent in from the metal on metal contact. You would use a mallet the same way you would a hammer, but do not use a mallet to hit sharp objects.
+![Picture of Mallet](https://cdn.discordapp.com/attachments/983922080879869962/1142359757202669628/anvil-mallets-99699-64_1000.png)

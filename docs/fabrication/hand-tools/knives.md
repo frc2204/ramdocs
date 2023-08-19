@@ -1,14 +1,4 @@
 # Utility Knives
-## Using a Utility Knife
-### Proper Grip and Handling
-## Utility Knife Functions
-### Cutting and Trimming
-### How to Use a Utility Knife
-#### Holding the Knife
-#### Blade Extension and Locking
-#### Cutting Motion
-#### Controlled Pressure
-## Different Types of Utility Knives
-### Retractable Blade Knives
-### Fixed Blade Utility Knives
-### Snap-Off Blade Knives
+Knives are NOT weapons. Do not use them as weapons. Using them properly is key to not getting hurt.
+## Using a Knife
+Using a knife in robotics isn't used that often. Occasionally we will use them to open packages, cut something, but overall not used that often. When using a knife the most important thing to remember is to cut away from your body to avoid getting hurt!
