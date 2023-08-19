@@ -3,9 +3,9 @@
 ## File Functions
 ### Shaping and Smoothing
 ### How to Use Files
-#### Gripping the File
-#### Applying Pressure
-#### Direction of Stroke
+##### Handling the File
+##### Applying Constant Pressure  
+##### Direction of Stroke Matters
 ## Different Types of Files
 ### Hand Files
 ### Rasp Files
