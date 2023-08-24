@@ -158,6 +158,7 @@ plugins:
   - search
   - glightbox
   - offline
+  - git-revision-date-localized
   - print-site
   - social:
       enabled: !ENV [CI, false]
