@@ -9,7 +9,9 @@ site_url: https://docs.rambots.org/
 site_description: The official source of documentation and training materials for the 2204 Rambots
 
 nav:
-  - Home: index.md
+  - Home:
+    - Home: index.md
+    - Student Handbook: handbook.md
   - Programming:
     - Programming Overview: programming/overview.md
     - Kotlin:
