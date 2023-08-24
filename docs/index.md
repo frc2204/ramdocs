@@ -8,5 +8,3 @@
 The official source of documentation and training materials for the 2204 Rambots
 
 Visit our main website at [rambots.org](https://rambots.org) or contact us at [contact@rambots.org](mailto:contact@rambots.org)
-
-Export this site as a PDF by clicking [here](/print_page.html)

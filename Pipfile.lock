@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "aa182dc6447568f12e0dce7e7ebd28133c4410b6eb190d77b9b31fa2bc85862b"
+            "sha256": "91783f7fbb65c31accb1b6959279669edc4972640cc9516bd56d6526e455cb30"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -510,14 +510,6 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==1.1.1"
-        },
-        "mkdocs-print-site-plugin": {
-            "hashes": [
-                "sha256:0340561a1a0fd99c2a0966f6f5ca8b8d208a0c199049a8f936d3c20ccccf435c",
-                "sha256:f7a1e8b67092547273cf2da9a7cbf6e179c86c65c3ef5af293e5bb78323d645c"
-            ],
-            "index": "pypi",
-            "version": "==2.3.5"
         },
         "packaging": {
             "hashes": [
