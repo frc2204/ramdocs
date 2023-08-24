@@ -163,9 +163,8 @@ plugins:
       show_contribution: true
       exclude:
         - index.md
-  - print-site
-#  - social:
-#      enabled: !ENV [CI, false]
+  - social:
+      enabled: !ENV [CI, false]
 
 markdown_extensions:
   - abbr
