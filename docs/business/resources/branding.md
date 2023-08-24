@@ -16,16 +16,6 @@
 
 This is the default font used in assets and documents
 
-**Click [here](https://files.catbox.moe/41lvdp.zip) to download font files**
-
-### Azonix
-
-![Azonix](https://cdn.discordapp.com/attachments/988886251367178320/1132098809342734347/Azonix.png)
-
-This font is usually used in documents addressing the Rambots
-
-**Click [here](https://files.catbox.moe/eh6pwj.zip) to download font files**
-
 ## **Colors**
 
 ### Rambot Red
