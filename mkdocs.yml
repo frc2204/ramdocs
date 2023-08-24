@@ -105,11 +105,11 @@ nav:
           - Vises: fabrication/hand-tools/vises.md
           - Wrenches: fabrication/hand-tools/wrench.md
       - Power Tools:
-        - Power Drill: fabrication/power-tools/drill.md
-        - Circular Saw: fabrication/power-tools/circular-saw.md
-        - Drill Press: fabrication/power-tools/drill-press.md
-        - Impact Driver: fabrication/power-tools/impact-driver.md
-        - Miter Saw: fabrication/power-tools/miter-saw.md
+        - Power Drill: fabrication/power-tools/drills.md
+        - Circular Saw: fabrication/power-tools/circular-saws.md
+        - Drill Press: fabrication/power-tools/drill-presses.md
+        - Impact Driver: fabrication/power-tools/impact-drivers.md
+        - Miter Saw: fabrication/power-tools/miter-saws.md
       - Manufacturing:
           - Additive Manufacturing: fabrication/manufacturing/additive-manufacturing.md
           - Subtractive Manufacturing: fabrication/manufacturing/subtractive-manufacturing.md
@@ -158,6 +158,7 @@ plugins:
   - search
   - glightbox
   - offline
+  - print-site
   - social:
       enabled: !ENV [CI, false]
 

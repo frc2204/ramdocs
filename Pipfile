@@ -8,6 +8,7 @@ pillow = "*"
 mkdocs-material = "*"
 mkdocs-glightbox = "*"
 cairosvg = "*"
+mkdocs-print-site-plugin = "*"
 
 [dev-packages]
 
