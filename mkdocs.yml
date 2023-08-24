@@ -158,6 +158,7 @@ plugins:
   - search
   - glightbox
   - offline
+  - print-site
   - social:
       enabled: !ENV [CI, false]
 
