@@ -128,7 +128,7 @@ theme:
   name: material
   logo: assets/logo_512.png
   favicon: assets/favicon.ico
-  custom_dir: overrides
+  custom_dir: docs/overrides
   features:
     - navigation.tabs
     - navigation.expand
@@ -160,6 +160,7 @@ plugins:
   - offline
   - git-revision-date-localized
   - print-site
+  - git-authors
   - social:
       enabled: !ENV [CI, false]
 
