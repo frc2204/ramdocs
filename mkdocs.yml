@@ -159,7 +159,10 @@ plugins:
   - glightbox
   - offline
   - git-revision-date-localized
-  - git-authors
+  - git-authors:
+      show_contribution: true
+      exclude:
+        - index.md
   - print-site
 #  - social:
 #      enabled: !ENV [CI, false]
