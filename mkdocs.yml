@@ -159,10 +159,10 @@ plugins:
   - glightbox
   - offline
   - git-revision-date-localized
-  - print-site
   - git-authors
-  - social:
-      enabled: !ENV [CI, false]
+  - print-site
+#  - social:
+#      enabled: !ENV [CI, false]
 
 markdown_extensions:
   - abbr
