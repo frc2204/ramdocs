@@ -3444,17 +3444,17 @@
   
 
 
-<h1 id="introduction-to-kotlin">Introduction to Kotlin</h1>
+<h1 id="introduction-to-kotlin">Introduction to Kotlin<a class="headerlink" href="#introduction-to-kotlin" title="Permanent link">&para;</a></h1>
 <p>Kotlin is a programming language that is designed to be concise, safe, and expressive. It is runs on multiple platforms, including <abbr title="Java Virtual Machine">JVM</abbr>, Android, browsers, and even natively on computers!</p>
 <p><a class="glightbox" href="https://kotlinlang.org/docs/images/kotlin-logo.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Kotlin" src="https://kotlinlang.org/docs/images/kotlin-logo.png" /></a></p>
-<h2 id="why-kotlin">Why Kotlin?</h2>
+<h2 id="why-kotlin">Why Kotlin?<a class="headerlink" href="#why-kotlin" title="Permanent link">&para;</a></h2>
 <p>In the past, our team has used Java as our primary programming language. However, we have decided to switch to Kotlin. Here's why:</p>
 <ul>
 <li><strong>Conciseness</strong>, <strong>multi-paradigm structure</strong> and <strong>interoperability</strong></li>
 <li>As a first programming language, gradual introduction of programming concepts <strong>without confusing boilerplate</strong></li>
 <li>Learn <strong>modern, generalizable programming habits</strong> which can be applied to <strong>use in the industry</strong></li>
 </ul>
-<h3 id="kotlin-in-industry-and-academia">Kotlin in Industry and Academia</h3>
+<h3 id="kotlin-in-industry-and-academia">Kotlin in Industry and Academia<a class="headerlink" href="#kotlin-in-industry-and-academia" title="Permanent link">&para;</a></h3>
 <p>Kotlin has already established itself to be highly impactful in sectors  including mobile development, and server-side &amp; cloud development. Additionally, Kotlin is trending in fields such as Multiplatform development, web frontend development, data science &amp; machine learning, and desktop application development.</p>
 <div class="grid">
 <ul>
@@ -3469,15 +3469,15 @@
 </li>
 </ul>
 </div>
-<h2 id="features">Features</h2>
-<h3 id="concise-code">Concise Code</h3>
+<h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h2>
+<h3 id="concise-code">Concise Code<a class="headerlink" href="#concise-code" title="Permanent link">&para;</a></h3>
 <p>Compared to Java, an industry standard, Kotlin is much more concise - reducing the number of lines of code by 40% on average. This, paired with a simple syntax, allows us to focus on the actual ideas behind our code and programming.</p>
-<h3 id="multi-platform">Multi-Platform</h3>
+<h3 id="multi-platform">Multi-Platform<a class="headerlink" href="#multi-platform" title="Permanent link">&para;</a></h3>
 <p>Kotlin is a multi-platform language, meaning that code can be run or executed across multiple platforms. Essentially, this allows us to write code once, and run it anywhere.</p>
 <details class="question" open="open">
 <summary>How does Kotlin run on multiple platforms?</summary>
 <p>Kotlin is a compiled language, meaning that it is translated (compiled) into bytecode (a set of instructions that can be executed by a computer). Then, bytecode can be translated into specific machine code for a specific platform.</p>
-<h4 id="compilation-processes">Compilation Processes</h4>
+<h4 id="compilation-processes">Compilation Processes<a class="headerlink" href="#compilation-processes" title="Permanent link">&para;</a></h4>
 <p>A more traditional approach would be to compile the code into machine code for a specific platform, which is what the C programming language does.</p>
 <pre class="mermaid"><code>graph LR
     S[Source Code]
@@ -3486,7 +3486,7 @@
 
     S -- Compiler --&gt; M -- Runs On --&gt; C</code></pre>
 <p>The problem with this approach is that we need to compile the code for each platform that we want to run it on. This means that we need to compile separate versions of the code for each platform, such as Windows, MacOS, and Linux.</p>
-<h4 id="the-java-virtual-machine">The Java Virtual Machine</h4>
+<h4 id="the-java-virtual-machine">The Java Virtual Machine<a class="headerlink" href="#the-java-virtual-machine" title="Permanent link">&para;</a></h4>
 <p>What if we could compile the code once, and run it anywhere? This is where the Java Virtual Machine (<abbr title="Java Virtual Machine">JVM</abbr>) comes in. <abbr title="Java Virtual Machine">JVM</abbr> handles the translation of bytecode into machine code for a specific platform.</p>
 <pre class="mermaid"><code>graph LR
     S[Source Code]
@@ -3502,7 +3502,7 @@
 
     S -- Compiler --&gt; B -- Run the Program --&gt; M -- Runs Anywhere --&gt; P
     S -. Runs Once .-&gt; B</code></pre>
-<h4 id="kotlin-multiplatform">Kotlin Multiplatform</h4>
+<h4 id="kotlin-multiplatform">Kotlin Multiplatform<a class="headerlink" href="#kotlin-multiplatform" title="Permanent link">&para;</a></h4>
 <p>Kotlin takes this idea one step further, allowing us to run code on multiple platforms, including <abbr title="Java Virtual Machine">JVM</abbr></p>
 <pre class="mermaid"><code>graph LR
     S[Source Code]
@@ -3526,9 +3526,9 @@
     S -- Compiles --&gt; K --&gt; P
     K --&gt; I</code></pre>
 </details>
-<h3 id="static-typing">Static Typing</h3>
+<h3 id="static-typing">Static Typing<a class="headerlink" href="#static-typing" title="Permanent link">&para;</a></h3>
 <p>Static typing is a way of defining the data types of variables and expressions in a programming language, enforcing the type of operations that can be performed on data. </p>
-<h4 id="what-is-typing">What is Typing?</h4>
+<h4 id="what-is-typing">What is Typing?<a class="headerlink" href="#what-is-typing" title="Permanent link">&para;</a></h4>
 <p>Why does this typing matter though? Let's break this down into a couple of exercises. Think of what result you would get if you were to perform the following operations:</p>
 <details class="success">
 <summary>Adding two words, <code>John</code> + <code>Doe</code> = <code>???</code></summary>
@@ -3547,19 +3547,19 @@
 <p>As shown in the examples above, static typing allows us to define the type of operations that can be performed on data. 
 In this case, adding two words will concatenate them together, while adding two numbers will mathematically add them together.</p>
 <p>In other words, the operation performed on data is dependent on the type of data. This is the core idea behind any typing.</p>
-<h4 id="enforcing-type-safety">Enforcing Type Safety</h4>
+<h4 id="enforcing-type-safety">Enforcing Type Safety<a class="headerlink" href="#enforcing-type-safety" title="Permanent link">&para;</a></h4>
 <p>Static typing also allows us to enforce types - meaning that the type of element must remain a specific type at any given time. This means that we can prevent operations from being performed on data that is not defined for that type.</p>
 <p>For example, if we were to try to add a word with a number, we would get an error. This is because the <code>+</code> operator is not defined for words and numbers.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Static typing is not the only way to define the type of operations that can be performed on data. There are other ways, such as dynamic typing, which is used in languages such as Python and JavaScript.</p>
 </div>
-<h4 id="type-inference">Type Inference</h4>
+<h4 id="type-inference">Type Inference<a class="headerlink" href="#type-inference" title="Permanent link">&para;</a></h4>
 <p>Type inference is a way of automatically determining the type of a variable or expression. This allows us to write code without having to explicitly define the type of a variable or expression - it saves us time and makes our code more concise.</p>
 <p>For example, if we were to define a variable <code>name</code> and assign it the value <code>"John"</code>, we would not have to explicitly define the type of <code>name</code> as a word. Instead, Kotlin would automatically infer that <code>name</code> is a word. Note that typing still exists, and add operations on <code>name</code> would still result in concatenation.</p>
-<h4 id="null-safety">Null Safety</h4>
+<h4 id="null-safety">Null Safety<a class="headerlink" href="#null-safety" title="Permanent link">&para;</a></h4>
 <p>Kotlin enforces null safety, meaning that we cannot assign a variable to <code>null</code> unless we explicitly define it as it being nullable. This prevents us from encountering null pointer exceptions, an extremely common error in Java.</p>
-<h2 id="hello-world">Hello World</h2>
+<h2 id="hello-world">Hello World<a class="headerlink" href="#hello-world" title="Permanent link">&para;</a></h2>
 <p>Your turn! Let's write our first Kotlin program.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>

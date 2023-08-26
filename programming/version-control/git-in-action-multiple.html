@@ -3496,16 +3496,16 @@
   
 
 
-<h1 id="git-in-action-multiple-repositories">Git In Action (Multiple Repositories)</h1>
+<h1 id="git-in-action-multiple-repositories">Git In Action (Multiple Repositories)<a class="headerlink" href="#git-in-action-multiple-repositories" title="Permanent link">&para;</a></h1>
 <p>So far, we've only been working with a single local repository. However, Git is most powerful when working with multiple repositories, especially when working with multiple people.</p>
-<h2 id="remote-repository">Remote Repository</h2>
-<h3 id="identifying-the-problem">Identifying the Problem</h3>
+<h2 id="remote-repository">Remote Repository<a class="headerlink" href="#remote-repository" title="Permanent link">&para;</a></h2>
+<h3 id="identifying-the-problem">Identifying the Problem<a class="headerlink" href="#identifying-the-problem" title="Permanent link">&para;</a></h3>
 <p>Let's say I had a project on my computer, and I wanted to share it with someone else. I could send them the files, but what if I wanted to work on the project with them? I could send them the files, and then they could send me the files back, but that would be a pain to manage.</p>
 <details class="question">
 <summary>What are other potential issues?</summary>
 <p>Another issue here is that we wouldn't be able to work on the project at the same time without knowing what exactly changed. This leads to potential conflicts that could ultimately break code. It doesn't work at scale, and it's inefficient.</p>
 </details>
-<h3 id="incorporating-git">Incorporating Git</h3>
+<h3 id="incorporating-git">Incorporating Git<a class="headerlink" href="#incorporating-git" title="Permanent link">&para;</a></h3>
 <p>What if we had a central repository that we could both access? That way, we could both work on the project, and we could both see the changes that the other person made.</p>
 <p>This is where a remote repository comes in. A remote repository is a repository that is stored on a server, and can be accessed by multiple people. This allows multiple people to work on the same project, and see the changes that the other person made.
 We'll touch more about how we're actually syncing changes in <a href="#pushing-and-pulling">Pushing and Pulling</a>.</p>
@@ -3513,9 +3513,9 @@ We'll touch more about how we're actually syncing changes in <a href="#pushing-a
 <p class="admonition-title">Info</p>
 <p>This is typically where Github or some other service comes in. Github is a website that allows you to host remote repositories.</p>
 </div>
-<h2 id="cloning-a-repository">Cloning a Repository</h2>
+<h2 id="cloning-a-repository">Cloning a Repository<a class="headerlink" href="#cloning-a-repository" title="Permanent link">&para;</a></h2>
 <p>Let's say we have a remote repository that we want to work on. We can clone the repository to our local machine, and then we can work on it locally.</p>
-<h3 id="git-clone"><code>git clone</code></h3>
+<h3 id="git-clone"><code>git clone</code><a class="headerlink" href="#git-clone" title="Permanent link">&para;</a></h3>
 <p>To clone a repository, we can use the <code>git clone</code> command. This command takes in a URL to a remote repository, and then clones it to our local machine.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/frc2204/ramdocs
 </span></code></pre></div>
@@ -3532,9 +3532,9 @@ We'll touch more about how we're actually syncing changes in <a href="#pushing-a
 <p>This solves our previous issue of having to send files back and forth. Now, we can both work on the same project, and we can both see the changes that the other person made. Plus, it works at scale, $N$ people can work on the same project.</p>
 <p>Git is actually used in large scale projects, from enterprise software to open source projects like <a href="https://github.com/torvalds/linux">Linux</a>.</p>
 </div>
-<h2 id="pushing-and-pulling">Pushing and Pulling</h2>
+<h2 id="pushing-and-pulling">Pushing and Pulling<a class="headerlink" href="#pushing-and-pulling" title="Permanent link">&para;</a></h2>
 <p>Now that we have a remote repository, we can push and pull changes to and from the repository. This allows us to sync changes between multiple people.</p>
-<h3 id="git-push"><code>git push</code></h3>
+<h3 id="git-push"><code>git push</code><a class="headerlink" href="#git-push" title="Permanent link">&para;</a></h3>
 <p>To push changes to a remote repository, we can use the <code>git push</code> command. This command will take all the new commits that we have made, and push them to the remote repository.</p>
 <pre class="mermaid"><code>sequenceDiagram
     participant Local
@@ -3559,7 +3559,7 @@ We'll touch more about how we're actually syncing changes in <a href="#pushing-a
 <p class="admonition-title">Question</p>
 <p><code>Local1</code> was able to push changes, but keep in mind that <code>Local2</code> isn't able to see the changes. How do we fix this?</p>
 </div>
-<h3 id="git-pull"><code>git pull</code></h3>
+<h3 id="git-pull"><code>git pull</code><a class="headerlink" href="#git-pull" title="Permanent link">&para;</a></h3>
 <p>To pull changes from a remote repository, we can use the <code>git pull</code> command. This command will take all the new commits that have been pushed to the remote repository, and pull them to our local repository.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -3585,7 +3585,7 @@ We'll touch more about how we're actually syncing changes in <a href="#pushing-a
 <p class="admonition-title">Info</p>
 <p><code>git pull</code> is actually just a combination of <code>git fetch</code> and <code>git merge</code>. <code>git fetch</code> will fetch all the new commits from the remote repository, and <code>git merge</code> will merge them into our local repository.</p>
 </div>
-<h4 id="git-fetch"><code>git fetch</code></h4>
+<h4 id="git-fetch"><code>git fetch</code><a class="headerlink" href="#git-fetch" title="Permanent link">&para;</a></h4>
 <p>Fetches the new commits from the remote repository, but won't merge them into our local repository. This allows us to see the changes that have been made, but it doesn't change our local repository.</p>
 <pre class="mermaid"><code>sequenceDiagram
     participant Local1
@@ -3599,7 +3599,7 @@ We'll touch more about how we're actually syncing changes in <a href="#pushing-a
     Local1-&gt;&gt;Remote: git push
     Local2-&gt;&gt;Remote: git pull
     Remote--&gt;&gt;Local2: Repository</code></pre>
-<h4 id="git-merge"><code>git merge</code></h4>
+<h4 id="git-merge"><code>git merge</code><a class="headerlink" href="#git-merge" title="Permanent link">&para;</a></h4>
 <p>Merge the new commits into our local repository. This will change our local repository if no conflicts occur.</p>
 <pre class="mermaid"><code>sequenceDiagram
     participant Local1
@@ -3614,7 +3614,7 @@ We'll touch more about how we're actually syncing changes in <a href="#pushing-a
     Local2-&gt;&gt;Remote: git fetch
     Remote--&gt;&gt;+Local2: Repository
     Local2-&gt;&gt;-Local2: git merge</code></pre>
-<h2 id="resolving-conflicts">Resolving Conflicts</h2>
+<h2 id="resolving-conflicts">Resolving Conflicts<a class="headerlink" href="#resolving-conflicts" title="Permanent link">&para;</a></h2>
 <p>When a conflict occurs, Git lets us know, and we'll have to go in and manually resolve the conflict.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
@@ -3632,11 +3632,11 @@ We'll touch more about how we're actually syncing changes in <a href="#pushing-a
 In this example, you'll need to decide whether you want to keep the code that you wrote, or the code that the other person wrote. Or both! It's up to you. <img alt="😄" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f604.svg" title=":smile:" /></p>
 </div>
 <p>Once you've resolved the conflict, you'll need to commit the changes.</p>
-<h2 id="avoiding-conflicts">Avoiding Conflicts</h2>
+<h2 id="avoiding-conflicts">Avoiding Conflicts<a class="headerlink" href="#avoiding-conflicts" title="Permanent link">&para;</a></h2>
 <p>Conflicts are inevitable, but there are some things that you can do to avoid them.</p>
-<h3 id="branching">Branching</h3>
+<h3 id="branching">Branching<a class="headerlink" href="#branching" title="Permanent link">&para;</a></h3>
 <p>With branching, you can create a new branch, and work on that branch. This allows you to work on a feature without affecting the main branch. Once you're done with the feature, you can merge the branch into the main branch.</p>
-<h4 id="git-checkout"><code>git checkout</code></h4>
+<h4 id="git-checkout"><code>git checkout</code><a class="headerlink" href="#git-checkout" title="Permanent link">&para;</a></h4>
 <p>To create a new branch, we can use the <code>git checkout</code> command. This command will create a new branch, and switch to that branch.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature-branch
 </span></code></pre></div>
@@ -3655,13 +3655,13 @@ In this example, you'll need to decide whether you want to keep the code that yo
 <p class="admonition-title">Info</p>
 <p>This pattern is called <a href="git-dev-patterns.html#feature-branching">Feature Branching</a>, and is our team's preferred workflow. We'll cover this in the next couple sections.</p>
 </div>
-<h3 id="communication">Communication</h3>
+<h3 id="communication">Communication<a class="headerlink" href="#communication" title="Permanent link">&para;</a></h3>
 <p>Proper communication can help avoid conflicts. If you're working on a feature, let your teammates know. This way, they can avoid working on the same feature, and avoid conflicts.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>The programming lead will usually delegate features to each programmer, so this shouldn't be an issue.</p>
 </div>
-<h3 id="code-with-me">Code With Me</h3>
+<h3 id="code-with-me">Code With Me<a class="headerlink" href="#code-with-me" title="Permanent link">&para;</a></h3>
 <p>A feature within JetBrains IDEs, Code With Me allows you to collaborate with other people on the same project. This allows you to see what the other person is doing, and avoid conflicts. It's essentially the Google Docs of programming, but for whole projects.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>

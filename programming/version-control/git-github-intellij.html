@@ -3472,13 +3472,13 @@
   
 
 
-<h1 id="git-github-and-intellij">Git, GitHub, and IntelliJ</h1>
+<h1 id="git-github-and-intellij">Git, GitHub, and IntelliJ<a class="headerlink" href="#git-github-and-intellij" title="Permanent link">&para;</a></h1>
 <p>IntelliJ has built-in support for Git as well as integrations for GitHub. This means that you can use IntelliJ as a graphical user interface for Git, never having to touch your terminal!</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>It's still a good idea to familiarize yourself with how to use Git from the command line. While using IntelliJ unlocks greater productivity, the basics of Git are still best learned from the command line. </p>
 </div>
-<h2 id="cloning-a-repository-from-intellij">Cloning a Repository from IntelliJ</h2>
+<h2 id="cloning-a-repository-from-intellij">Cloning a Repository from IntelliJ<a class="headerlink" href="#cloning-a-repository-from-intellij" title="Permanent link">&para;</a></h2>
 <p>Depending on the version of IntelliJ you are using, you may be able to clone a repository from the welcome screen or from the <code>File</code> &gt; <code>New Project</code> &gt; <code>Get from VCS</code> menu.</p>
 <p>To access the welcome screen, launch IntelliJ or close the current project you have open with <code>File</code> &gt; <code>Close Project</code>.
 You should see a screen like this:</p>
@@ -3488,10 +3488,10 @@ You should see a screen like this:</p>
 <summary>Not Working?</summary>
 <p>Check whether you have Git installed on your computer. See <a href="git-intro.html#git-setup">git setup</a> for more information.</p>
 </details>
-<h2 id="checking-file-status">Checking File Status</h2>
-<h3 id="project-view">Project View</h3>
+<h2 id="checking-file-status">Checking File Status<a class="headerlink" href="#checking-file-status" title="Permanent link">&para;</a></h2>
+<h3 id="project-view">Project View<a class="headerlink" href="#project-view" title="Permanent link">&para;</a></h3>
 <p>The project view in IntelliJ will show you the status of your files. Files that are not tracked by Git will be shown in red, and files that are created will show up in green. Files that have been updated will show up in blue. For more information, visit JetBrain's documentation regarding <a href="https://www.jetbrains.com/help/idea/file-status-highlights.html">file status highlights</a>.</p>
-<h3 id="changelist">Changelist</h3>
+<h3 id="changelist">Changelist<a class="headerlink" href="#changelist" title="Permanent link">&para;</a></h3>
 <p>The changelist view in IntelliJ will show you all the files that have been changed since the last commit. You can open the changelist view by clicking on the <code>Commits</code> or <code>Version Control</code> tab on the left of the screen.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -3499,7 +3499,7 @@ You should see a screen like this:</p>
 </div>
 <p>Like the project view, files color will be determined by their status.</p>
 <p><a class="glightbox" href="https://resources.jetbrains.com/help/img/idea/2023.1/changelists_in_commit_tw.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Changelist View" src="https://resources.jetbrains.com/help/img/idea/2023.1/changelists_in_commit_tw.png" /></a></p>
-<h2 id="branch-management">Branch Management</h2>
+<h2 id="branch-management">Branch Management<a class="headerlink" href="#branch-management" title="Permanent link">&para;</a></h2>
 <p>In IntelliJ IDEA, all operations with branches are performed in the Git Branches popup. To invoke it, in the main window header, click the Git widget with the name of the branch that is currently checked out:</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Git Branches Popup</label><label for="__tabbed_1_2">Branches Pane</label></div>
 <div class="tabbed-content">
@@ -3515,24 +3515,24 @@ You should see a screen like this:</p>
 <summary>Cant Find It?</summary>
 <p>Depending on the version of IntelliJ you are using, you may see a different version of the Git Branches Popup or the Branches pane. The functionality is the same, but the UI may be different. Visit JetBrains official documentation for <a href="https://www.jetbrains.com/help/idea/manage-branches.html">managing branches</a> for more information.</p>
 </details>
-<h2 id="syncing">Syncing</h2>
+<h2 id="syncing">Syncing<a class="headerlink" href="#syncing" title="Permanent link">&para;</a></h2>
 <p>With the git branches popup, IntelliJ will inform you if there are incoming commits.</p>
 <p><a class="glightbox" href="https://resources.jetbrains.com/help/img/idea/2023.1/Git_branches_incomming_commits_indicator.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Branch Popup" src="https://resources.jetbrains.com/help/img/idea/2023.1/Git_branches_incomming_commits_indicator.png" /></a></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>The most common way to sync changes with a remote repository is with <a href="#updating-project">Updating Project</a>. Feel free to skip to there.</p>
 </div>
-<h3 id="fetching-changes">Fetching Changes</h3>
+<h3 id="fetching-changes">Fetching Changes<a class="headerlink" href="#fetching-changes" title="Permanent link">&para;</a></h3>
 <p>Fetching with IntelliJ does the same as <a href="git-in-action-multiple.html#git-fetch"><code>git fetch</code></a>. It will download the latest commits from the remote repository, but will not update your local repository.</p>
 <p>To fetch the latest updates, use <code>Git</code> &gt; <code>Fetch</code> or use the Branches popup and click <a class="glightbox" href="https://resources.jetbrains.com/help/img/idea/2023.1/app.vcs.fetch.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Fetch" src="https://resources.jetbrains.com/help/img/idea/2023.1/app.vcs.fetch.svg" /></a></p>
-<h3 id="updating-branches">Updating Branches</h3>
+<h3 id="updating-branches">Updating Branches<a class="headerlink" href="#updating-branches" title="Permanent link">&para;</a></h3>
 <p>Use update if you need to sync a specific branch with its remote tracked branch. This is a convenient shortcut for fetching and subsequently applying changes to the selected branch.</p>
 <p>In the Branches popup or in the Branches pane of the Version Control tool window, select a branch and choose Update from the context menu.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>IntelliJ IDEA will pull changes from the remote branch and will rebase or merge them into the local branch depending on which update method is selected in <code>Settings</code> &gt; <code>Version Control</code> &gt; <code>Git</code>.</p>
 </div>
-<h3 id="pulling-changes">Pulling Changes</h3>
+<h3 id="pulling-changes">Pulling Changes<a class="headerlink" href="#pulling-changes" title="Permanent link">&para;</a></h3>
 <p>Pulling with IntelliJ does the same as <a href="git-in-action-multiple.html#git-pull"><code>git pull</code></a>. It will download the latest commits from the remote repository and update your local repository.</p>
 <p>To pull the latest updates, use <code>Git</code> &gt; <code>Pull</code> and the pull dialog will appear.
 <a class="glightbox" href="https://resources.jetbrains.com/help/img/idea/2023.1/git_pull_dialog.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Pull Dialog" src="https://resources.jetbrains.com/help/img/idea/2023.1/git_pull_dialog.png" /></a></p>
@@ -3545,7 +3545,7 @@ You should see a screen like this:</p>
 <p><code>--no-commit</code>: a merge will be performed, but a merge commit will not be created so that you can inspect the result of the merge before committing.</p>
 <p>To learn more about the additional options when pulling changes, visit Git's pull documentation <a href="https://git-scm.com/docs/git-pull">here</a></p>
 </details>
-<h3 id="updating-project">Updating Project</h3>
+<h3 id="updating-project">Updating Project<a class="headerlink" href="#updating-project" title="Permanent link">&para;</a></h3>
 <p>When running <a href="git-in-action-multiple.html#git-pull"><code>git pull</code></a>, Git will automatically run <code>git fetch</code> and <code>git merge</code>. However, the updated version only applies it to one specific branch. With <code>Update Project</code>, IntelliJ will apply the changes to all branches.</p>
 <p>With the main menu, choose <code>Git</code> &gt; <code>Update Project</code> or  <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-t">T</kbd></span>. This will open the Update Project dialog.</p>
 <p>Select the update type <code>Merge</code>. Merging will apply the changes from the remote repository to your local repository. This the same as <a href="git-in-action-multiple.html#git-merge"><code>git merge</code></a>.</p>
@@ -3553,13 +3553,13 @@ You should see a screen like this:</p>
 <p class="admonition-title">Tip</p>
 <p>This is the most common way and convenient way to sync changes with a remote repository.</p>
 </div>
-<h2 id="committing-and-pushing-changes">Committing and Pushing Changes</h2>
+<h2 id="committing-and-pushing-changes">Committing and Pushing Changes<a class="headerlink" href="#committing-and-pushing-changes" title="Permanent link">&para;</a></h2>
 <p>After you've added new files to the Git repository, or modified files that are already under Git version control and you are happy with their current state, you can share the results of your work. This involves committing them locally to record the snapshot of your repository to the project history, and then pushing them to the remote repository so that they become available to others.</p>
 <div class="admonition info">
 <p class="admonition-title">Set your Git Username</p>
 <p>Git needs to know your username to associate commits with an identity. If you have not set your username, IntelliJ IDEA will prompt you to specify it when you first attempt to commit changes.</p>
 </div>
-<h3 id="shortcuts">Shortcuts</h3>
+<h3 id="shortcuts">Shortcuts<a class="headerlink" href="#shortcuts" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -3586,7 +3586,7 @@ You should see a screen like this:</p>
 </tr>
 </tbody>
 </table>
-<h3 id="committing-changes">Committing Changes</h3>
+<h3 id="committing-changes">Committing Changes<a class="headerlink" href="#committing-changes" title="Permanent link">&para;</a></h3>
 <p>Open the vertical Commit tool window <span class="keys"><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-0">0</kbd></span> located on the left:</p>
 <p><a class="glightbox" href="https://resources.jetbrains.com/help/img/idea/2023.1/ij_VCS_commit_tool_window.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Commit Tool Window" src="https://resources.jetbrains.com/help/img/idea/2023.1/ij_VCS_commit_tool_window.png" /></a></p>
 <p>As your changes are ready to be committed, select the corresponding files or an entire changelist.</p>
@@ -3600,7 +3600,7 @@ You should see a screen like this:</p>
 <p class="admonition-title">Tip</p>
 <p>You can also edit the commit message later before you've pushed the commit.</p>
 </div>
-<h4 id="committing-partial-changes">Committing Partial Changes</h4>
+<h4 id="committing-partial-changes">Committing Partial Changes<a class="headerlink" href="#committing-partial-changes" title="Permanent link">&para;</a></h4>
 <p>Sometimes when you make changes that are related to a specific task, you also apply other unrelated code modifications that affect the same file. 
 This isn't desirable because we want to be able to break down our changes into smaller, more manageable commits, rather than one large chunk.</p>
 <p>IntelliJ IDEA lets you commit such changes separately in one of the following ways:</p>
@@ -3637,13 +3637,13 @@ This isn't desirable because we want to be able to break down our changes into s
 </li>
 </ol>
 </details>
-<h3 id="pushing-changes">Pushing Changes</h3>
+<h3 id="pushing-changes">Pushing Changes<a class="headerlink" href="#pushing-changes" title="Permanent link">&para;</a></h3>
 <p>To push changes from the current branch press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-k">K</kbd></span> or choose <code>Git</code> &gt; <code>Push</code> from the main menu.</p>
 <div class="admonition danger">
 <p class="admonition-title">Danger</p>
 <p>Do not force push unless you know what you are doing. Force pushing will overwrite the remote repository with your local repository - all previous commits will be lost <img alt="😕" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f615.svg" title=":confused:" /></p>
 </div>
-<h2 id="pull-requests">Pull Requests</h2>
+<h2 id="pull-requests">Pull Requests<a class="headerlink" href="#pull-requests" title="Permanent link">&para;</a></h2>
 <p>While IntelliJ has a pull integration with GitHub, we encourage you to use the GitHub website to create and manage pull requests. However, if your still curious, you can visit JetBrains documentation regarding <a href="https://www.jetbrains.com/help/idea/work-with-github-pull-requests.html">pull requests</a></p>
 
   <hr>

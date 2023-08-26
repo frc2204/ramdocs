@@ -3192,10 +3192,10 @@
 <p>This website uses <a href="https://www.markdownguide.org/">Markdown</a> and <a href="https://jekyllrb.com/">Jekyll</a> to format posts. Markdown is commonly used for formatting
 text on the web, and is used on websites such as Github, Reddit, Stack Overflow, and even Discord.</p>
 <p _="%" highlight="highlight" markdown="markdown">Here's a quick overview of Markdown:</p>
-<h1 id="this-is-a-heading">This is a heading</h1>
-<h2 id="this-is-a-subheading">This is a subheading</h2>
-<h3 id="this-is-a-sub-subheading">This is a sub-subheading</h3>
-<h4 id="this-is-a-sub-sub-subheading">This is a sub-sub-subheading</h4>
+<h1 id="this-is-a-heading">This is a heading<a class="headerlink" href="#this-is-a-heading" title="Permanent link">&para;</a></h1>
+<h2 id="this-is-a-subheading">This is a subheading<a class="headerlink" href="#this-is-a-subheading" title="Permanent link">&para;</a></h2>
+<h3 id="this-is-a-sub-subheading">This is a sub-subheading<a class="headerlink" href="#this-is-a-sub-subheading" title="Permanent link">&para;</a></h3>
+<h4 id="this-is-a-sub-sub-subheading">This is a sub-sub-subheading<a class="headerlink" href="#this-is-a-sub-sub-subheading" title="Permanent link">&para;</a></h4>
 <p>This is a paragraph. You can even make text <strong>bold</strong> or <em>italic</em>.</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;I can even add code blocks!&quot;</span><span class="p">)</span>
 </span></code></pre></div>
@@ -3203,17 +3203,17 @@ text on the web, and is used on websites such as Github, Reddit, Stack Overflow,
 Here's a picture of the dino from the game <a class="glightbox" href="/assets/dino.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dino Run" src="/assets/dino.jpg" /></a>:
 {% endhighlight %}
 <a class="glightbox" href="/assets/dino.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dino Run" src="/assets/dino.jpg" /></a></p>
-<h1 id="github">Github</h1>
+<h1 id="github">Github<a class="headerlink" href="#github" title="Permanent link">&para;</a></h1>
 <p>This website is hosted on Github Pages, which is a free service that allows you to host static websites. 
 This means that edits on the repository will be reflected on the website. You should familiarize yourself with terms
 such as <code>commit</code>, <code>pull request</code>, and <code>merge</code> before making any changes to the website.</p>
-<h1 id="posts">Posts</h1>
+<h1 id="posts">Posts<a class="headerlink" href="#posts" title="Permanent link">&para;</a></h1>
 <p>In order to post a new blog post, create a new file in the <code>_posts</code> directory.
 Jekyll requires blog post files to be named according to the following format:</p>
 <p><code>YEAR-MONTH-DAY-title.md</code></p>
 <p>Where <code>YEAR</code> is a four-digit number, <code>MONTH</code> and <code>DAY</code> are both two-digit numbers, and <code>md</code> is the file extension 
 representing the format used in the file (markdown). After that, include the necessary front matter. Here's an example:</p>
-<h2 id="highlight-markdown">{% highlight markdown %}</h2>
+<h2 id="highlight-markdown">{% highlight markdown %}<a class="headerlink" href="#highlight-markdown" title="Permanent link">&para;</a></h2>
 <p>layout: post
 title:  "Operating the Website"
 date:   2023-06-14 15:46:38 -0700
@@ -3255,10 +3255,10 @@ author: James Ding</p>
 </table>
 <p>Note: A common solution to articles not showing up on the website is to check the date. If the date is in the future, the article will not show up on the website.</p>
 <p>Take a look at the <a href="https://github.com/frc2204/rambots-website/blob/main/_posts/2023-06-14-operating-the-website.md?plain=1">source</a> for this post to get an idea about how it works.</p>
-<h2 id="updating-content">Updating Content</h2>
+<h2 id="updating-content">Updating Content<a class="headerlink" href="#updating-content" title="Permanent link">&para;</a></h2>
 <p>Updating content on the website is pretty straight forward. Generally, you would want to release updates every season on
 sponsors, resources, and media.</p>
-<h3 id="updating-sponsors">Updating Sponsors</h3>
+<h3 id="updating-sponsors">Updating Sponsors<a class="headerlink" href="#updating-sponsors" title="Permanent link">&para;</a></h3>
 <p>To update sponsors, edit the <code>sponsors.md</code> file in the root directory. The file is formatted in Markdown, but includes
 special elements known as <code>includes</code>.</p>
 <p>Think about includes as a special function that takes in parameters and outputs HTML. In most cases to display sponsors,
@@ -3295,10 +3295,10 @@ you would need the image, name, description, and link to the sponsor. </p>
 </table>
 <p>In order to get the sponsor's image to show properly, place image files (<code>PNG</code>, <code>JPG</code>, <code>JPEG</code>, <code>SVG</code>) in the <code>assets/sponsors</code> 
 folder. Other than that, you should be good to go!</p>
-<h3 id="updating-members">Updating Members</h3>
+<h3 id="updating-members">Updating Members<a class="headerlink" href="#updating-members" title="Permanent link">&para;</a></h3>
 <p>Updating members is a slightly more complicated and time consuming process. In order to update members, you need to edit
 individual markdown files in the <code>_mentors</code>, <code>_leadership</code>, <code>_members</code>, and <code>_alumni</code> directories.</p>
-<h4 id="mentors">Mentors</h4>
+<h4 id="mentors">Mentors<a class="headerlink" href="#mentors" title="Permanent link">&para;</a></h4>
 <p>Mentors have the following attributes. Note that most attributes are optional, but it is recommended to fill out as much
 as possible.</p>
 <table>
@@ -3344,7 +3344,7 @@ as possible.</p>
 </tbody>
 </table>
 <p>The content after the front matter is the mentor's biography. This is just standard Markdown.</p>
-<h4 id="leadership-members">Leadership &amp; Members</h4>
+<h4 id="leadership-members">Leadership &amp; Members<a class="headerlink" href="#leadership-members" title="Permanent link">&para;</a></h4>
 <p>Leadership and members have the following attributes. Note that most attributes are optional, but it is recommended to fill out as much
 as possible.</p>
 <table>
@@ -3391,7 +3391,7 @@ as possible.</p>
 </table>
 <p>The content after the front matter is the leadership/member's biography. This is just standard Markdown. This is truncated at
 {{ site.member_bio_length }} characters.</p>
-<h4 id="alumni">Alumni</h4>
+<h4 id="alumni">Alumni<a class="headerlink" href="#alumni" title="Permanent link">&para;</a></h4>
 <p>Alumni have the following attributes. Note that most attributes are optional, but it is recommended to fill out as much
 as possible.</p>
 <table>

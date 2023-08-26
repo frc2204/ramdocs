@@ -3334,8 +3334,8 @@
   
 
 
-<h1 id="variables">Variables</h1>
-<h2 id="expression">Expression</h2>
+<h1 id="variables">Variables<a class="headerlink" href="#variables" title="Permanent link">&para;</a></h1>
+<h2 id="expression">Expression<a class="headerlink" href="#expression" title="Permanent link">&para;</a></h2>
 <p>Expressions simply describe any computation that produces a value and are the basic building blocks of any program.</p>
 <div class="admonition example">
 <p class="admonition-title">Examples of expressions</p>
@@ -3345,7 +3345,7 @@ $$
 22 + 4, \frac{22}{4}, \sin \pi, \sum_{i=1}^n{i}, -2204, \log x, 20.24
 $$</p>
 </div>
-<h3 id="call-expressions">Call Expressions</h3>
+<h3 id="call-expressions">Call Expressions<a class="headerlink" href="#call-expressions" title="Permanent link">&para;</a></h3>
 <p>Let's take a look at the expression <code>add(2, 3)</code>. This is called a <strong>call expression</strong>. It is composed of the following parts:</p>
 <ul>
 <li><code>add</code>: the <strong>function name</strong>, known as the <strong>operator</strong></li>
@@ -3384,7 +3384,7 @@ $$</p>
     [9] --&gt; [*]</code></pre>
 <p>Keep in mind this whole time, we are evaluating each operand from left to right. Once we encounter another call expression, we begin the call expression evaluation for the specific call expression. Finally we apply the operator to the operands.</p>
 </details>
-<h2 id="assignment-statements">Assignment Statements</h2>
+<h2 id="assignment-statements">Assignment Statements<a class="headerlink" href="#assignment-statements" title="Permanent link">&para;</a></h2>
 <p>All programs need to be able to store data, and variables help you to do just that. In Kotlin, you can declare:</p>
 <ul>
 <li>read-only variables with <code>val</code></li>
@@ -3473,7 +3473,7 @@ $$</p>
 <p>Is it alright to legal everything as a <code>var</code>? Yes! No ones stopping you <img alt="😉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f609.svg" title=":wink:" /></p>
 <p>However, it is considered good practice to declare variables as <code>val</code> by default, and only declare variables as <code>var</code> if necessary. Declaring variables properly can not only let other people know how you intend to use the variable, but also help the compiler optimize your code and catch any potential bugs.</p>
 </div>
-<h2 id="string-templates">String Templates</h2>
+<h2 id="string-templates">String Templates<a class="headerlink" href="#string-templates" title="Permanent link">&para;</a></h2>
 <p>It's useful to know how to print the contents of variables to standard output. You can do this with string templates <code>$</code>, which gives access data stored in variables and other objects, and convert them into strings.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
@@ -3505,7 +3505,7 @@ Another way to comment is with <code>/*</code> and <code>*/</code>. This is usef
 </span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="p">}</span>
 </span></code></pre></div>
 </div>
-<h3 id="practice">Practice</h3>
+<h3 id="practice">Practice<a class="headerlink" href="#practice" title="Permanent link">&para;</a></h3>
 <p>Complete the code to make the program print "Mary is 20 years old" by using the information provided in the variables <code>name</code> and <code>age</code>.</p>
 <div class="language-kotlin highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="c1">//sampleStart</span>
@@ -3527,7 +3527,7 @@ Another way to comment is with <code>/*</code> and <code>*/</code>. This is usef
 </span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="p">}</span>
 </span></code></pre></div></p>
 </details>
-<h2 id="basic-data-types">Basic Data Types</h2>
+<h2 id="basic-data-types">Basic Data Types<a class="headerlink" href="#basic-data-types" title="Permanent link">&para;</a></h2>
 <p>Every variable and data structure in Kotlin has a data type. Data types are important because they tell the compiler what you are allowed to do with that variable or data structure. In other words, what functions and properties it has.</p>
 <p>Kotlin was able to tell in the previous example that customers has type: <code>Int</code> through a method known as type inference. Because <code>customers</code> was assigned an integer value, Kotlin infers that customers has numerical data type: <code>Int</code>. As a result, the compiler knows that you can perform arithmetic operations with <code>customers</code></p>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Kotlin</label><label for="__tabbed_3_2">Java</label><label for="__tabbed_3_3">Python</label></div>
@@ -3634,7 +3634,7 @@ Another way to comment is with <code>/*</code> and <code>*/</code>. This is usef
 </tr>
 </tbody>
 </table>
-<h3 id="advanced-assignment-statements">Advanced Assignment Statements</h3>
+<h3 id="advanced-assignment-statements">Advanced Assignment Statements<a class="headerlink" href="#advanced-assignment-statements" title="Permanent link">&para;</a></h3>
 <p>With your new-found knowledge of basic types, you unlock the ability to use more advanced assignment statements. While these are not common in <abbr title="FIRST Robotics Competition">FRC</abbr>, they are still useful to know about.</p>
 <div class="language-kotlin highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="c1">//sampleStart</span>
