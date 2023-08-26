@@ -64,4 +64,4 @@ If your stuck, don't worry! We've all been there. Here are some resources that y
 - [GitHub Documentation](https://docs.github.com)
 - [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials/)
 - [IDEA Documentation](https://www.jetbrains.com/help/idea)
-- COMPSCI 61B: Data Structures
+- [COMPSCI 61B: Data Structures and Programming Methodology](http://datastructur.es/)
