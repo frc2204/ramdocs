@@ -1,3 +1,4 @@
+# Impact Drivers
 ## Introduction:
 
 An impact driver is a versatile power tool that is primarily used for driving screws, bolts, and fasteners. This document provides step-by-step instructions on how to safely and effectively operate an impact driver.
