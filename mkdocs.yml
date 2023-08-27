@@ -3,6 +3,8 @@ site_name: 2204 Rambots Documentation
 repo_name: frc2204/ramdocs
 repo_url: https://github.com/frc2204/ramdocs
 
+edit_uri: edit/main/docs/
+
 site_url: https://docs.rambots.org/
 site_description: The official source of documentation and training materials for the 2204 Rambots
 
@@ -85,7 +87,9 @@ nav:
       - Hand Tools:
           - Calipers: fabrication/hand-tools/calipers.md
           - Chain Breakers: fabrication/hand-tools/chain-breakers.md
+          - Deburrers: fabrication/hand-tools/deburrers.md
           - Files: fabrication/hand-tools/files.md
+          - Hack Saws: fabrication/hand-tools/hack-saws.md
           - Hammers: fabrication/hand-tools/hammer.md
           - Hand Saws: fabrication/hand-tools/hand-saws.md
           - Hex Keys: fabrication/hand-tools/hex-keys.md
@@ -101,11 +105,11 @@ nav:
           - Vises: fabrication/hand-tools/vises.md
           - Wrenches: fabrication/hand-tools/wrench.md
       - Power Tools:
-        - Power Drill: fabrication/power-tools/drill.md
-        - Circular Saw: fabrication/power-tools/circular-saw.md
-        - Drill Press: fabrication/power-tools/drill-press.md
-        - Impact Driver: fabrication/power-tools/impact-driver.md
-        - Miter Saw: fabrication/power-tools/miter-saw.md
+        - Power Drill: fabrication/power-tools/drills.md
+        - Circular Saw: fabrication/power-tools/circular-saws.md
+        - Drill Press: fabrication/power-tools/drill-presses.md
+        - Impact Driver: fabrication/power-tools/impact-drivers.md
+        - Miter Saw: fabrication/power-tools/miter-saws.md
       - Manufacturing:
           - Additive Manufacturing: fabrication/manufacturing/additive-manufacturing.md
           - Subtractive Manufacturing: fabrication/manufacturing/subtractive-manufacturing.md
@@ -124,7 +128,7 @@ theme:
   name: material
   logo: assets/logo_512.png
   favicon: assets/favicon.ico
-  custom_dir: overrides
+  custom_dir: docs/overrides
   features:
     - navigation.tabs
     - navigation.expand
@@ -154,6 +158,11 @@ plugins:
   - search
   - glightbox
   - offline
+  - git-revision-date-localized
+  - git-authors:
+      show_contribution: true
+      exclude:
+        - index.md
   - social:
       enabled: !ENV [CI, false]
 
@@ -183,6 +192,9 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - toc:
+      permalink: true
+
 
 extra:
   analytics:

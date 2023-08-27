@@ -1,9 +1,3 @@
-# Business Overview
-
-Welcome to the Business Overview page! As a FIRST team, your technical skills and innovative ideas are crucial for success, but it's equally important to understand the business aspects of running a team. This page serves as a guide to help you navigate through the various business-related elements that contribute to the overall effectiveness and sustainability of your team.
-
-***
-
 # **Overview**
 Here is an overview of the things that business team does pre-season, during the season, and post season.
 ## Fundraising and Sponsorship
@@ -17,7 +11,7 @@ Funding is essential for covering competition costs, purchasing equipment, and s
 
 Explore potential grants and funding opportunities specifically available to FIRST Robotics teams:
 
-- **[FIRST Grants](https://www.firstinspires.org/robotics/team-grants)** Check the official FIRST website for grant opportunities available to registered teams.
+- **[FIRST Grants:](https://www.firstinspires.org/robotics/team-grants)** Check the official FIRST website for grant opportunities available to registered teams.
 
 - **STEM Foundations:** Research and apply for grants from local or national STEM-focused foundations.
 
@@ -52,6 +46,3 @@ Building strong connections within our community is not only fulfilling but also
 - **STEM Education Initiatives:** Organizing workshops, demonstrations, and/or mentorship programs to promote interest in science and technology among local students.
 
 - **Community Events:** Participate in local events and volunteer activities to raise awareness about STEM.
-
-
-*Note: This page is a continuous work-in-progress, and we will update it regularly with new information and resources to support your team's business endeavors.*
