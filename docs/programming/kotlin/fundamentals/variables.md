@@ -8,7 +8,7 @@ Expressions simply describe any computation that produces a value and are the ba
     You've probably seen expressions before. Here are some examples:
     $$
     \large
-    22 + 4, \frac{22}{4}, \sin \pi, \sum_{i=1}^n{i}, -2204, \log x, 20.24
+    22 + 4, \frac{22}{4}, \sin \pi, \sum_{i=1}^n{i}, -2204, \log x, 22.04
     $$
 
 ### Call Expressions
