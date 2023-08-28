@@ -6,17 +6,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.rambots.org/business/branding.html</loc>
+         <lastmod>2023-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.rambots.org/business/overview.html</loc>
          <lastmod>2023-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.rambots.org/business/tools.html</loc>
+         <loc>https://docs.rambots.org/business/communication/emails.html</loc>
          <lastmod>2023-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.rambots.org/business/resources/branding.html</loc>
+         <loc>https://docs.rambots.org/business/fundraising/donations.html</loc>
+         <lastmod>2023-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rambots.org/business/fundraising/grants.html</loc>
+         <lastmod>2023-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rambots.org/business/spending/stores.html</loc>
+         <lastmod>2023-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rambots.org/business/tools/tools.html</loc>
          <lastmod>2023-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
