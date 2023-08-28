@@ -119,9 +119,16 @@ nav:
           - Drawing Exchange Format (DXF): fabrication/file-types/dxf.md
   - Business:
     - Overview: business/overview.md
-    - Tools: business/tools.md
-    - Resources:
-        - Branding: business/resources/branding.md
+    - Branding: business/branding.md
+    - Tools:
+      - Overview: business/tools/tools.md
+    - Fundraising:
+      - Grants: business/fundraising/grants.md
+      - Donations: business/fundraising/donations.md
+    - Spending:
+      - Stores: business/spending/stores.md
+    - Communication:
+      - Emails: business/communication/emails.md
 
 
 theme:
