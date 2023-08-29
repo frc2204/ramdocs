@@ -41,6 +41,36 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.rambots.org/business/tools/ai/chatgpt.html</loc>
+         <lastmod>2023-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rambots.org/business/tools/collaboration/discord.html</loc>
+         <lastmod>2023-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rambots.org/business/tools/collaboration/monday.com.html</loc>
+         <lastmod>2023-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rambots.org/business/tools/collaboration/notion.html</loc>
+         <lastmod>2023-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rambots.org/business/tools/collaboration/office365.html</loc>
+         <lastmod>2023-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rambots.org/business/tools/graphic/photopea.html</loc>
+         <lastmod>2023-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.rambots.org/design/overview.html</loc>
          <lastmod>2023-08-29</lastmod>
          <changefreq>daily</changefreq>
