@@ -124,7 +124,15 @@ nav:
     - Overview: business/overview.md
     - Branding: business/branding.md
     - Tools:
-      - Overview: business/tools/tools.md
+      - AI:
+        - ChatGPT: business/tools/ai/chatgpt.md
+      - Collaboration:
+        - Discord: business/tools/collaboration/discord.md
+        - Monday.com: business/tools/collaboration/monday.com.md
+        - Notion: business/tools/collaboration/notion.md
+        - Office365: business/tools/collaboration/office365.md
+      - Graphic Design:
+        - Photopea: business/tools/graphic/photopea.md
     - Fundraising:
       - Grants: business/fundraising/grants.md
       - Donations: business/fundraising/donations.md
