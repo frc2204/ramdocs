@@ -57,7 +57,6 @@ If your stuck, don't worry! We've all been there. Here are some resources that y
 - [ChatGPT](https://chat.openai.com/) or [Bard](https://bard.google.com/) are a LLMs that can answer questions, generate code, and even help debug. It's not perfect, but it's pretty good at answering questions about programming, as well as explaining concepts.
 
 ## Credits
-- [James Ding](https://github.com/twangodev)
 - [COMPSCI 61A: Structure and Interpretation of Computer Programs](https://cs61a.org/)
 - [Structure and Interpretation of Computer Programs, 2nd ed.](https://web.mit.edu/6.001/6.037/sicp.pdf)
 - [Composing Programs](https://www.composingprograms.com)
@@ -65,4 +64,4 @@ If your stuck, don't worry! We've all been there. Here are some resources that y
 - [GitHub Documentation](https://docs.github.com)
 - [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials/)
 - [IDEA Documentation](https://www.jetbrains.com/help/idea)
-- COMPSCI 61B: Data Structures
+- [COMPSCI 61B: Data Structures and Programming Methodology](http://datastructur.es/)

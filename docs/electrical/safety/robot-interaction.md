@@ -1,0 +1,1 @@
+Before interatcting with the robot you must make sure the the robot is first disabled and turned off. Make sure that any moving parts are secured and when turning on the robot, announce that the robot is being turned on.

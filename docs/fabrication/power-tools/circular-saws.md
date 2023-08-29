@@ -1,3 +1,4 @@
+# Circular Saws
 A circular saw is a versatile power tool used for making straight cuts in various materials such as wood, plywood, and plastic. This document provides step-by-step instructions on how to safely and effectively operate a circular saw.
 
 ## Safety Precautions
