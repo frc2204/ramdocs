@@ -7,6 +7,9 @@ edit_uri: edit/main/docs/
 
 site_url: https://docs.rambots.org/
 site_description: The official source of documentation and training materials for the 2204 Rambots
+site_author: 2204 Rambots
+
+copyright: '&copy; Copyright 2023 Rambots'
 
 nav:
   - Home: index.md
