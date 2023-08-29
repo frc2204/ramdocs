@@ -209,6 +209,15 @@ markdown_extensions:
 extra:
   analytics:
     provider: custom
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://rambots.org/
+    - icon: fontawesome/brands/github
+      link: https://github.com/frc2204/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/frc2204/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/RambotsTeam2204/
 
 extra_javascript:
   - javascripts/katex.js
