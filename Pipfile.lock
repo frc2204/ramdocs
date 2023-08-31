@@ -29,7 +29,7 @@
                 "sha256:492bbc69dca35d12daac71c4db1bfff0c876c00ef4a2ffacce226d4638eb72da",
                 "sha256:bd2520ca0d9d7d12694a53d44ac482d181b4ec1888909b035a3dbf40d0f57d4a"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==4.12.2"
         },
         "cairocffi": {
@@ -203,7 +203,7 @@
                 "sha256:f779d3ad205f108d14e99bb3859aa7dd8e9c68874617c72354d7ecaec2a054ac",
                 "sha256:f87f746ee241d30d6ed93969de31e5ffd09a2961a051e60ae6bddde9ec3583aa"
             ],
-            "markers": "python_full_version >= '3.7.0'",
+            "markers": "python_version >= '3.7'",
             "version": "==3.2.0"
         },
         "click": {
@@ -497,11 +497,11 @@
         },
         "mkdocs-material": {
             "hashes": [
-                "sha256:1cbac871826bbe0b5a42d7a86cfe729e03cef60cbd4d7425c640115bf1936360",
-                "sha256:7a8c5638e28cb1c0a0c7596dd85835c461a73637ce8640ea9302dbc674c2aa29"
+                "sha256:02b4d1f662bc022e9497411e679323c30185e031a08a7004c763aa8d47ae9a29",
+                "sha256:315a59725f0565bccfec7f9d1313beae7658bf874a176264b98f804a0cbc1298"
             ],
             "index": "pypi",
-            "version": "==9.2.3"
+            "version": "==9.2.5"
         },
         "mkdocs-material-extensions": {
             "hashes": [
