@@ -158,7 +158,7 @@ fun main() {
 
 ### List Methods
 
-??? tip "`get()`"
+???+ tip "`get()`"
     !!! example "The get() method requires an argument of a valid index number, and returns the value inside the index"
         === "Kotlin"
         ```kotlin
@@ -168,7 +168,7 @@ fun main() {
         }
         ```
 
-??? tip "`subList()`"
+???+ tip "`subList()`"
     !!! example "The subList() method requires two arguments, first is begin index (inclusive), second is end index(exclusive)"
         === "Kotlin"
         ```kotlin
@@ -178,7 +178,7 @@ fun main() {
         }
         ```
 
-??? tip "`add()`"
+???+ tip "`add()`"
     !!! example "The add() method requires one argument, and it is the value that we wish to add to our current mutable list. The value will automatically be placed behind all indexes"   
         === "Kotlin"
         ```kotlin
@@ -190,7 +190,7 @@ fun main() {
         }
         ```
 
-??? tip "`remove()`"
+???+ tip "`remove()`"
     !!! example "The removeAt() method removes the element at the given index"
         === "Kotlin"
         ```kotlin
@@ -204,7 +204,7 @@ fun main() {
         }
         ```
 
-??? tip "`equals()`"
+???+ tip "`equals()`"
     !!! example "The equals() method takes in another list of the same type, and returns a boolean on whether the two lists are equal"
         === "Kotlin"
         ```kotlin
@@ -250,7 +250,7 @@ As well, sets don't support indices to access specific indexes like lists.
 
 ### Set Methods
 
-??? tip "`add()`"
+???+ tip "`add()`"
     !!! example "The add() method takes in one integer argument and adds the integer to the end of the set"
         === "Kotlin"
         ```kotlin
@@ -264,7 +264,7 @@ As well, sets don't support indices to access specific indexes like lists.
         }
         ```
 
-??? tip "`remove()`"
+???+ tip "`remove()`"
     !!! example "The remove() method takes in one integer argument and removes that integer from the list (if not in list, does nothing)"
         === "Kotlin"
         ```kotlin
@@ -360,5 +360,17 @@ interface provides specific functions, such as access to value by key, searching
                is on the right side of the equal sign, and store it into the key on the left side.
 
 ### Map Methods
+
+???+ tip "`keys()`"
+    !!! example "The keys() method returns a list of keys from the map"
+        === "Kotlin"
+        ```kotlin
+        fun main() {
+            //sampleStart
+            val myMap = mapOf<Int, Char>(1 to 'a', 2 to 'b', 3 to 'c')
+            print(myMap.keys)
+            //sampleEnd
+        }
+        ```
 
 
