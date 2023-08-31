@@ -4015,7 +4015,7 @@ not allowed to update the values(nor size), and certain operations will be limit
                         a persons' favorite music - this list will constantly be changed and updated and some songs
                         will be removed and more will be added in.</p>
 <h3 id="list-methods">List Methods<a class="headerlink" href="#list-methods" title="Permanent link">&para;</a></h3>
-<details class="tip">
+<details class="tip" open="open">
 <summary><code>get()</code></summary>
 <div class="admonition example">
 <p class="admonition-title">The get() method requires an argument of a valid index number, and returns the value inside the index</p>
@@ -4031,7 +4031,7 @@ not allowed to update the values(nor size), and certain operations will be limit
 </span></code></pre></div>
 </div>
 </details>
-<details class="tip">
+<details class="tip" open="open">
 <summary><code>subList()</code></summary>
 <div class="admonition example">
 <p class="admonition-title">The subList() method requires two arguments, first is begin index (inclusive), second is end index(exclusive)</p>
@@ -4047,7 +4047,7 @@ not allowed to update the values(nor size), and certain operations will be limit
 </span></code></pre></div>
 </div>
 </details>
-<details class="tip">
+<details class="tip" open="open">
 <summary><code>add()</code></summary>
 <div class="admonition example">
 <p class="admonition-title">The add() method requires one argument, and it is the value that we wish to add to our current mutable list. The value will automatically be placed behind all indexes</p>
@@ -4065,7 +4065,7 @@ not allowed to update the values(nor size), and certain operations will be limit
 </span></code></pre></div>
 </div>
 </details>
-<details class="tip">
+<details class="tip" open="open">
 <summary><code>remove()</code></summary>
 <div class="admonition example">
 <p class="admonition-title">The removeAt() method removes the element at the given index</p>
@@ -4085,7 +4085,7 @@ not allowed to update the values(nor size), and certain operations will be limit
 </span></code></pre></div>
 </div>
 </details>
-<details class="tip">
+<details class="tip" open="open">
 <summary><code>equals()</code></summary>
 <div class="admonition example">
 <p class="admonition-title">The equals() method takes in another list of the same type, and returns a boolean on whether the two lists are equal</p>
@@ -4133,7 +4133,7 @@ As well, sets don't support indices to access specific indexes like lists.</p>
 <p><code>Mutable Set:</code> A mutable set is also very similar to a mutable list, where elements could be added and removed. However,
                a duplicate element can be added.</p>
 <h3 id="set-methods">Set Methods<a class="headerlink" href="#set-methods" title="Permanent link">&para;</a></h3>
-<details class="tip">
+<details class="tip" open="open">
 <summary><code>add()</code></summary>
 <div class="admonition example">
 <p class="admonition-title">The add() method takes in one integer argument and adds the integer to the end of the set</p>
@@ -4153,7 +4153,7 @@ As well, sets don't support indices to access specific indexes like lists.</p>
 </span></code></pre></div>
 </div>
 </details>
-<details class="tip">
+<details class="tip" open="open">
 <summary><code>remove()</code></summary>
 <div class="admonition example">
 <p class="admonition-title">The remove() method takes in one integer argument and removes that integer from the list (if not in list, does nothing)</p>
@@ -4255,13 +4255,31 @@ interface provides specific functions, such as access to value by key, searching
                a new key and store the value on the right side of the equal sign. We are basically saying: "Put whatever value
                is on the right side of the equal sign, and store it into the key on the left side.</p>
 <h3 id="map-methods">Map Methods<a class="headerlink" href="#map-methods" title="Permanent link">&para;</a></h3>
+<details class="tip" open="open">
+<summary><code>keys()</code></summary>
+<div class="admonition example">
+<p class="admonition-title">The keys() method returns a list of keys from the map</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="16:1"><input checked="checked" id="__tabbed_16_1" name="__tabbed_16" type="radio" /><div class="tabbed-labels"><label for="__tabbed_16_1">Kotlin</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="w">    </span><span class="c1">//sampleStart</span>
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">myMap</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mapOf</span><span class="o">&lt;</span><span class="kt">Int</span><span class="p">,</span><span class="w"> </span><span class="kt">Char</span><span class="o">&gt;</span><span class="p">(</span><span class="m">1</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="p">,</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="sc">&#39;b&#39;</span><span class="p">,</span><span class="w"> </span><span class="m">3</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="sc">&#39;c&#39;</span><span class="p">)</span>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="w">    </span><span class="n">print</span><span class="p">(</span><span class="n">myMap</span><span class="p">.</span><span class="na">keys</span><span class="p">)</span>
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="w">    </span><span class="c1">//sampleEnd</span>
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="p">}</span>
+</span></code></pre></div>
+</div>
+</details>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 27, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 31, 2023</span>
       
     
   </small>
