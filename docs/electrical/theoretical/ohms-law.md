@@ -1,0 +1,1 @@
+Ohm’s law is a formula used to calculate the relationship between voltage, current and resistance in a circuit. The formula is V=IR or voltage = amps x ohms. The formula is used to find voltage, current, or resistance when given the other two quantitates. Resistance = Voltage/Current, Current= Voltage/Resistance, Voltage= Current x Resistance
