@@ -7,6 +7,9 @@ edit_uri: edit/main/docs/
 
 site_url: https://docs.rambots.org/
 site_description: The official source of documentation and training materials for the 2204 Rambots
+site_author: 2204 Rambots
+
+copyright: '&copy; Copyright 2023 Rambots'
 
 nav:
   - Home:
@@ -123,7 +126,15 @@ nav:
     - Overview: business/overview.md
     - Branding: business/branding.md
     - Tools:
-      - Overview: business/tools/tools.md
+      - AI:
+        - ChatGPT: business/tools/ai/chatgpt.md
+      - Collaboration:
+        - Discord: business/tools/collaboration/discord.md
+        - Monday.com: business/tools/collaboration/monday.com.md
+        - Notion: business/tools/collaboration/notion.md
+        - Office365: business/tools/collaboration/office365.md
+      - Graphic Design:
+        - Photopea: business/tools/graphic/photopea.md
     - Fundraising:
       - Grants: business/fundraising/grants.md
       - Donations: business/fundraising/donations.md
@@ -208,6 +219,15 @@ markdown_extensions:
 extra:
   analytics:
     provider: custom
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://rambots.org/
+    - icon: fontawesome/brands/github
+      link: https://github.com/frc2204/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/frc2204/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/RambotsTeam2204/
 
 extra_javascript:
   - javascripts/katex.js
