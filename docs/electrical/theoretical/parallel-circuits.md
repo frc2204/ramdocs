@@ -1,0 +1,1 @@
+For a parallel circuit, all the electrical components share the same electrical nodes and the electrical path splits into different branches so that the current divides and part of it flows through each branch. The voltage is the same across all parallel components and the total current is the sum of all the current in the individual branches.
