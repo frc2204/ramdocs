@@ -1,0 +1,1 @@
+A transformer is an electrical device that takes in a voltage and outputs a different voltage. It can either increase or decrease voltage. A transformer that increases voltage is called a step-up transformer and a transformer that decreased voltage is called a step-down transformer. A transformer works by using electromagnetic induction to change the voltage.
