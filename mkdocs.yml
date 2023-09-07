@@ -44,6 +44,7 @@ nav:
         - Git, GitHub, and IntelliJ: programming/version-control/git-github-intellij.md
         - Git Development Patterns: programming/version-control/git-dev-patterns.md
         - Git Practice Activity: programming/version-control/git-practice-activity.md
+    - Networking: programming/networking.md
     - Advanced Topics:
         - PID Controllers: programming/advanced-topics/pid-control.md
         - Inverse Kinematics: programming/advanced-topics/inverse-kinematics.md
