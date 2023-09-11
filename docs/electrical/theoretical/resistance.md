@@ -1,1 +1,1 @@
-Electrical resistance measures how much an object reduces or opposes the electric current flowing through something. The unit for resistance is measure in ohms (Ω). ![image](https://github.com/frc2204/ramdocs/assets/132165007/cde41efd-2125-4a7b-8029-93c0684b1d4c)
+Electrical resistance measures how much an object reduces or opposes the electric current flowing through something. The unit for resistance is measure in ohms (Ω).
