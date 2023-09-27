@@ -14,7 +14,7 @@ By signing below, I, the student, agree to the following:
 Student: _____________________________ Signature: __________________________  Date: _______________
 
 By signing below, I, a parent/guardian, agree with the following:
-- I have read and understood the Citrus Circuits Team Handbook.
+- I have read and understood the 2204 Rambots Team Handbook.
 - I have read and understood the expectations for alerting Team Leadership of absence during a competition 
 - I understand that for my child to be considered a team member of the 2204 Rambots, and they must follow and fulfill the criteria outlined in Section 4.aa
 - I understand that my child is participating in a collaborative competitive team environment. Therefore, I will respect any decisions made by the mentors or teachers involved in the program regarding my child's participation on the team.
