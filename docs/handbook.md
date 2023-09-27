@@ -266,10 +266,3 @@ This handbook was inspired by Citrus Circuit’s handbook.
 You may contact any of the student leadership team or mentors for any questions or concerns.
 
 Visit our [contact page](https://rambots.org/contact) for more information.
-
----
-
-## Student Contract
-You may find the student contract [here](student-contract.md)
-
-
