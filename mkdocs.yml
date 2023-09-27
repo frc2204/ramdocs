@@ -218,8 +218,6 @@ markdown_extensions:
 
 
 extra:
-  analytics:
-    provider: custom
   social:
     - icon: fontawesome/solid/globe
       link: https://rambots.org/
