@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.rambots.org/student-contract.html</loc>
+         <lastmod>2023-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.rambots.org/business/branding.html</loc>
          <lastmod>2023-09-27</lastmod>
          <changefreq>daily</changefreq>
