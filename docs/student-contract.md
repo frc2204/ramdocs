@@ -11,7 +11,7 @@ By signing below, I, the student, agree to the following:
 - I will behave in a responsible, mature, and graciously professional manner while on or representing the team.
 - I understand that I can always bring problems to the attention of team leadership.
 
-Student: _____________________________ Signature: __________________________  Date: _______________
+Student: ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ Signature: ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿  Date: ＿＿＿＿＿＿
 
 By signing below, I, a parent/guardian, agree with the following:
 - I have read and understood the 2204 Rambots Team Handbook.
@@ -22,4 +22,4 @@ By signing below, I, a parent/guardian, agree with the following:
 - I understand that my child is expected to be respectful, mature, and responsible.
 - If they have a question or concern about the team, I can let them interact with team leadership for themselves.
 
-Parent/Guardian: _____________________________ Signature: __________________________  Date: _______________
+Parent/Guardian: ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ Signature: ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿  Date: ＿＿＿＿＿＿
