@@ -14,7 +14,7 @@ d) Rearrange tables
 9. If you are unsure about where a tool goes, consult [https://go.rambots.org/inventory](https://go.rambots.org/inventory) (qrcode on bottom)
 10. Only use tools that you are trained on. To get training ask the Fabrication Lead/ Shop Manager.
 11. Safety glasses should be worn when tools are out.
-    https://airtable.com/invite/l?inviteId=invRLuD3auHgQaaEw&inviteToken=3a4d9fb927093ed7f454f839eedf766eb8bdd26cbedb3dec4deba64c4ce61c0c&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts
+    [https://airtable.com/invite/l?inviteId=invRLuD3auHgQaaEw&inviteToken=3a4d9fb927093ed7f454f839eedf766eb8bdd26cbedb3dec4deba64c4ce61c0c&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts](https://airtable.com/invite/l?inviteId=invRLuD3auHgQaaEw&inviteToken=3a4d9fb927093ed7f454f839eedf766eb8bdd26cbedb3dec4deba64c4ce61c0c&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts)
                                    
 
 
