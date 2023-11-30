@@ -1,7 +1,7 @@
 # Tool Chest Rules
 1. Put things back where you found them. Non FRC members need to sign in and out tools. The same for non FRC work times. Do not take tools out of 104.
 2. When taking and adding new items, let the fabrication lead and shop manager know.
-3. Do not use the tools in the tool chest without permission. Get permission from Mrs. Kotlar or a FRC mentor. This is to help prevent accidents and damage to the tools. https://forms.office.com/r/nhtgkw5FZW?origin=lprLink
+3. Do not use the tools in the tool chest without permission. Get permission from Mrs. Kotlar or a FRC mentor. This is to help prevent accidents and damage to the tools. [https://forms.office.com/r/nhtgkw5FZW?origin=lprLink](https://forms.office.com/r/nhtgkw5FZW?origin=lprLink)
 4. Report any damaged or missing tools to the fabrication lead or shop manager immediately. Or use the qr code.  
 5. Keep the tool chest clean and free of debris. Clean up after you’re done.
 6. Do not overload the tool chest. Close drawers after getting the tools.
