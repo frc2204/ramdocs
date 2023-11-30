@@ -89,6 +89,7 @@ nav:
   - Design:
     - Design Overview: design/overview.md
   - Fabrication:
+      - Toolchest Guidelines: fabrication/toolchest-guidelines.md
       - Fabrication Overview: fabrication/overview.md
       - Hand Tools:
           - Calipers: fabrication/hand-tools/calipers.md
