@@ -150,7 +150,6 @@ theme:
   name: material
   logo: assets/logo_512.png
   favicon: assets/favicon.ico
-  custom_dir: docs/overrides
   features:
     - navigation.tabs
     - navigation.expand
@@ -180,12 +179,15 @@ plugins:
   - search
   - glightbox
   - offline
-  - social:
-      enabled: !ENV [CI, false]
+#  - social:
+#      enabled: !ENV [CI, false]
   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors
 
 markdown_extensions:
   - abbr
