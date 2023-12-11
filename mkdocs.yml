@@ -180,11 +180,6 @@ plugins:
   - search
   - glightbox
   - offline
-  - git-revision-date-localized
-  - git-authors:
-      show_contribution: true
-      exclude:
-        - index.md
   - social:
       enabled: !ENV [CI, false]
   - minify:
