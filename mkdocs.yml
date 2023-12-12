@@ -179,8 +179,8 @@ plugins:
   - search
   - glightbox
   - offline
- - social:
-     enabled: !ENV [CI, false]
+  - social:
+      enabled: !ENV [CI, false]
   - minify:
       minify_html: true
       minify_js: true
