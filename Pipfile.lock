@@ -427,12 +427,12 @@
         },
         "mkdocs-minify-plugin": {
             "hashes": [
-                "sha256:29bd6a1aa5b0217a55b08333194e20cf1ff83b63fb6a22a33f10f8fa9745c28a",
-                "sha256:6abf8f5a0fddb476bddd38faba28390fd8c41ab63b0d7202e3ce3deeb9ab98cb"
+                "sha256:6a551e22d6517eaef9e1890afd60021dc1dcd1255de02d266f588d1ace040713",
+                "sha256:ae8bfc4a68806883e990ea025938b3f989da7b9fa08ea8390dba47adf25e0c5b"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==0.7.1"
+            "markers": "python_version >= '3.8'",
+            "version": "==0.7.2"
         },
         "packaging": {
             "hashes": [
