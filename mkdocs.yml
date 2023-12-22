@@ -126,25 +126,17 @@ nav:
           - Drawing Exchange Format (DXF): fabrication/file-types/dxf.md
   - Business:
     - Overview: business/overview.md
-    - Branding: business/branding.md
-    - Tools:
-      - AI:
-        - ChatGPT: business/tools/ai/chatgpt.md
-      - Collaboration:
-        - Discord: business/tools/collaboration/discord.md
-        - Monday.com: business/tools/collaboration/monday.com.md
-        - Notion: business/tools/collaboration/notion.md
-        - Office365: business/tools/collaboration/office365.md
-      - Graphic Design:
-        - Photopea: business/tools/graphic/photopea.md
+    - Branding:
+      - Branding Guidelines: business/Branding/guidelines.md
+      - Photopea: business/Branding/photopea.md
+      - Uniform Design: business/Branding/uniform-design.md
     - Fundraising:
-      - Grants: business/fundraising/grants.md
-      - Donations: business/fundraising/donations.md
-    - Spending:
-      - Stores: business/spending/stores.md
-    - Communication:
-      - Emails: business/communication/emails.md
-
+      - Sponsors: business/Fundraising/sponsors.md
+      - Grants: business/Fundraising/grants.md
+    - "Public Relations":
+      - Social Media: business/Public Relations/socialmedia.md
+      - Newsletters: business/Public Relations/newsletter.md
+      - Blog Posts: business/Public Relations/blogposts.md
 
 theme:
   name: material
@@ -217,6 +209,9 @@ markdown_extensions:
       pygments_lang_class: true
   - toc:
       permalink: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 
 extra:
