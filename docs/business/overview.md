@@ -6,6 +6,7 @@ Welcome to the business team documentation. The team is responsible for funding 
 - Branding
 - Public Relations
 - Fundraising
+- Logistics
 
 ## **Fundraising**
 
@@ -46,3 +47,9 @@ The finance team is responsible for:
 
 - Write budget after grants/funds/registration are calculated
 - Review purchases and keep record for Bill of Materials (BoM) and various expense
+
+- ## **Logistics**
+
+The logistics team is responsible for:
+
+- Planning trips
