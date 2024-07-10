@@ -89,6 +89,7 @@ nav:
   - Design:
     - Design Overview: design/overview.md
   - Fabrication:
+      - Toolchest Guidelines: fabrication/toolchest-guidelines.md
       - Fabrication Overview: fabrication/overview.md
       - Hand Tools:
           - Calipers: fabrication/hand-tools/calipers.md
@@ -125,31 +126,22 @@ nav:
           - Drawing Exchange Format (DXF): fabrication/file-types/dxf.md
   - Business:
     - Overview: business/overview.md
-    - Branding: business/branding.md
-    - Tools:
-      - AI:
-        - ChatGPT: business/tools/ai/chatgpt.md
-      - Collaboration:
-        - Discord: business/tools/collaboration/discord.md
-        - Monday.com: business/tools/collaboration/monday.com.md
-        - Notion: business/tools/collaboration/notion.md
-        - Office365: business/tools/collaboration/office365.md
-      - Graphic Design:
-        - Photopea: business/tools/graphic/photopea.md
+    - Branding:
+      - Branding Guidelines: business/Branding/guidelines.md
+      - Photopea: business/Branding/photopea.md
+      - Uniform Design: business/Branding/uniform-design.md
     - Fundraising:
-      - Grants: business/fundraising/grants.md
-      - Donations: business/fundraising/donations.md
-    - Spending:
-      - Stores: business/spending/stores.md
-    - Communication:
-      - Emails: business/communication/emails.md
-
+      - Sponsors: business/Fundraising/sponsors.md
+      - Grants: business/Fundraising/grants.md
+    - "Public Relations":
+      - Social Media: business/Public Relations/socialmedia.md
+      - Newsletters: business/Public Relations/newsletter.md
+      - Blog Posts: business/Public Relations/blogposts.md
 
 theme:
   name: material
   logo: assets/logo_512.png
   favicon: assets/favicon.ico
-  custom_dir: docs/overrides
   features:
     - navigation.tabs
     - navigation.expand
@@ -179,13 +171,15 @@ plugins:
   - search
   - glightbox
   - offline
-  - git-revision-date-localized
-  - git-authors:
-      show_contribution: true
-      exclude:
-        - index.md
   - social:
       enabled: !ENV [CI, false]
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors
 
 markdown_extensions:
   - abbr
@@ -215,11 +209,12 @@ markdown_extensions:
       pygments_lang_class: true
   - toc:
       permalink: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 
 extra:
-  analytics:
-    provider: custom
   social:
     - icon: fontawesome/solid/globe
       link: https://rambots.org/

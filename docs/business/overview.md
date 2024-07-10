@@ -1,48 +1,55 @@
 # **Overview**
-Here is an overview of the things that business team does pre-season, during the season, and post season.
-## Fundraising and Sponsorship
 
-Funding is essential for covering competition costs, purchasing equipment, and sustaining team operations. Here are some strategies we use for successful fundraising and sponsorships:
+Welcome to the business team documentation. The team is responsible for funding the team, logistics, planning, and much more. Business team has 4 seperate subteams.
 
-- **[Outreach and Networking:](https://www.firstinspires.org/resource-library/ftc/team-outreach-and-marketing-resources)** Reach out to local businesses, corporations, and community organizations to build relationships and secure sponsorships.
+- Finance
+- Branding
+- Public Relations
+- Fundraising
+- Logistics
 
-- [**Fundraising:**](https://www.firstinspires.org/resource-library/fundraising-toolkit) Organize engaging fundraising events within our community, school, or online.
-## Grant Opportunities
+## **Fundraising**
 
-Explore potential grants and funding opportunities specifically available to FIRST Robotics teams:
+The fundraising team is responsible for:
 
-- **[FIRST Grants:](https://www.firstinspires.org/robotics/team-grants)** Check the official FIRST website for grant opportunities available to registered teams.
+- Writing grants and finding grant oppurtunities
+- Contacting and finding potential sponsors
+    - Finding local businesses
+    - Checking in with team members and parents for opportunities
+- Following up with all connections and thanking them (eg. thank you cards)
 
-- **STEM Foundations:** Research and apply for grants from local or national STEM-focused foundations.
+## **Public Relations**
 
-- **Corporate Grants:** Some companies offer grants to support STEM education initiatives and may be interested in supporting FIRST teams.
+The public relations team is responsible for:
 
-!!! tip
-    Remember that successful business practices, combined with technical expertise, are instrumental in ensuring our team's sustainability and growth. Use these resources as a starting point to develop a robust business strategy that complements your engineering efforts.
-## Team Budgeting and Financial Management
+- Managing social media accounts
+    - Instagram
+    - Facebook
+- Write newsletters for parents, community, and sponsors
+- Create blog posts for website (press releases and major updates)
+- Historians
+    - Collect photos and interviews
+    - Record memories from each year and post on website.
 
-Maintaining a clear and well-managed budget is crucial for responsible financial decision-making. Consider the following steps:
+## **Branding**
 
-- **Budget Planning:** Create a comprehensive budget that includes estimated expenses and potential income from sponsorships and fundraising.
+The branding team is responsible for:
 
-- **Expense Tracking:** Keep track of all expenses and income throughout the season, ensuring accountability and transparency.
+- Designing t-shirts and hoodies
+- Designing banner and pit decor
+- Designing pins
+- Creating display boards (eg. for open house and club fair)
+- Creating brochures (eg. for open house and club fair)
 
-- **Financial Reporting:** Regularly update the team about the financial status and progress toward meeting financial goals.
+## **Finance**
 
-## Public Relations and Marketing
+The finance team is responsible for:
 
-Effectively communicating our team's mission, achievements, and activities to the public:
+- Write budget after grants/funds/registration are calculated
+- Review purchases and keep record for Bill of Materials (BoM) and various expense
 
-- **Newsletter:** Informing parents and the general public about team updates, milestones, and events.
+- ## **Logistics**
 
-- **Blog Posts:** Writing various blog posts about major team milestones and events for our website.
+The logistics team is responsible for:
 
-- **Social Media:** Utilize various social media platforms (Facebook and Instagram) to share updates, showcase your robot's progress, and engage with the community.
-
-## Team Outreach and Community Engagement
-
-Building strong connections within our community is not only fulfilling but also opens up opportunities for collaboration and support:
-
-- **STEM Education Initiatives:** Organizing workshops, demonstrations, and/or mentorship programs to promote interest in science and technology among local students.
-
-- **Community Events:** Participate in local events and volunteer activities to raise awareness about STEM.
+- Planning trips

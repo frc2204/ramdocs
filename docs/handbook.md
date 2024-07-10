@@ -1,5 +1,8 @@
 # Student Handbook
 
+!!! abstract "Student Contract"
+    You can find the student contract [here](./student-contract.md)
+
 ## About the Handbook
 
 This handbook is intended to contain the information needed for all Team 2204 (Rambots) members to understand the administrative and logistical procedures for participating in the FIRST Robotics Competition. It is updated yearly by the Core Leadership team to accurately represent current standards and guidelines for the team.
@@ -36,7 +39,6 @@ engineering, art, and mathematics) education.
 
 - 2023 Creativity Award for our flexible 3D Printed Robot Claw
 - 2020 Woodie Flowers Mentor Award for our mentor, Gary Gin
-- 2023 Dean’s List Semi-Finalist for our team president, James Ding
 
 ## Mentors
 
@@ -116,6 +118,24 @@ The business team plays a critical role in managing the financial and public rel
 ## Expectations
 
 ### Attendance Policy
+
+Attendance is taken at every team meeting by each subteam lead. You are required to notify team
+leadership about late arrivals and absences. You should contact your subteam lead by email, Discord, or Teams as
+soon as possible, preferably at least 24 hours in advance. Longer absences should be communicated
+earlier. These are the following criteria for attendance:
+
+- Present
+    - Being physically present is not enough—students must be attentive and productive during meeting time to be marked "present." Present markings will count positively towards your attendance percentage.
+- Absent Notified & Partial Notified
+    - If you know ahead of time that you will miss a meeting, your subteam lead should be informed at least 24 hours prior to the meeting. If you do so, your absence will be marked as “notified” and you will have the ability to make up for your absence. All notified absences are still counted negatively towards your attendance percentage.
+- Absent Made Up & Partial Made Up 
+    - For notified absences ONLY, you have the ability to make up any work from the meeting, including homework and self-studying any material covered during training. If this action is taken, the absence will be counted positively towards your attendance percentage. It is YOUR responsibility to proactively ask the subteam lead for work to make up.
+- Absent Unnotified & Partial Unnotified 
+    - Unnotified absences cannot be made up and will count negatively towards your attendance percentage.
+- Unproductive 
+    - If you are not sufficiently productive or are distracting others during a meeting, the subteam lead may mark you “unproductive.” You will be given warnings when you are marked unproductive so you know what behavior was at fault and should not be repeated. Being marked “unproductive” will count negatively towards your attendance percentage and cannot be made up.
+
+#### Attendance Evaluations
 
 Members must be able to attend 70% of all meetings. To track your attendance, use the rambot Discord bot on our Discord server.
 

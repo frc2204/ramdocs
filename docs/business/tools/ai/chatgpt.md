@@ -1,3 +1,0 @@
-### [ChatGPT](https://chat.openai.com)
-<img src="https://cdn.discordapp.com/attachments/988886251367178320/1132090985598431332/1920px-ChatGPT_logo.png" width="25%" height="25%" alt="ChatGPT Logo" /><br>
-ChatGPT is an AI large language model (LLM) designed by OpenAI that uses deep learning techniques to engage in natural language conversations and provide responses to a wide range of prompts and queries.
