@@ -28,7 +28,7 @@ determine the actions *if* the expression is evaluated as true.
                integer *20*, and *21*, representing the age of two people - John and Brad. We then evaluated the two ages 
                using an if statement. 
 
-***Consider the following flowchart:***
+***flowchart:***
 
 ```mermaid
     graph TD;
