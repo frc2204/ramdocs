@@ -129,7 +129,9 @@ nav:
     - Branding:
       - Branding Guidelines: business/Branding/guidelines.md
       - Photopea: business/Branding/photopea.md
-      - Uniform Design: business/Branding/uniform-design.md
+      - Merch Archives:
+        - Shirt Archives: business/Branding/Merch archives/shirt-archive.md
+        - Jacket Archives: business/Branding/Merch archives/jacket-archive.md
     - Fundraising:
       - Sponsors: business/Fundraising/sponsors.md
       - Grants: business/Fundraising/grants.md
