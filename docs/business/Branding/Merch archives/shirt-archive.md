@@ -2,9 +2,9 @@
 
 <div class="grid cards" markdown>
 
-- ![Image](https://cdn.rambots.org/Shirt_2007_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2007_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2007_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2007_back.webp){ loading=lazy }
 
 </div>
 
@@ -32,17 +32,17 @@ Shirt design not available at the moment
 
 <div class="grid cards" markdown>
 
-- ![Image](https://cdn.rambots.org/Shirt_2013_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2013_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2013_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2013_back.webp){ loading=lazy }
 
 </div>
 
 ## 2014
 
-- ![Image](https://cdn.rambots.org/Shirt_2014_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2014_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2014_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2014_back.webp){ loading=lazy }
 
 </div>
 
@@ -50,9 +50,9 @@ Shirt design not available at the moment
 
 <div class="grid cards" markdown>
 
-- ![Image](https://cdn.rambots.org/Shirt_2015_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2015_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2015_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2015_back.webp){ loading=lazy }
 
 </div>
 
@@ -60,9 +60,9 @@ Shirt design not available at the moment
 
 <div class="grid cards" markdown>
 
-- ![Image](https://cdn.rambots.org/Shirt_2016_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2016_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2016_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2016_back.webp){ loading=lazy }
 
 </div>
 
@@ -70,9 +70,9 @@ Shirt design not available at the moment
 
 <div class="grid cards" markdown>
 
-- ![Image](https://cdn.rambots.org/Shirt_2017_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2017_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2017_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2017_back.webp){ loading=lazy }
 
 </div>
 
@@ -80,9 +80,9 @@ Shirt design not available at the moment
 
 <div class="grid cards" markdown>
 
-- ![Image](https://cdn.rambots.org/Shirt_2018_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2018_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2018_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2018_back.webp){ loading=lazy }
 
 </div>
 
@@ -90,17 +90,17 @@ Shirt design not available at the moment
 
 <div class="grid cards" markdown>
 
-- ![Image](https://cdn.rambots.org/Shirt_2019_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2019_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2019_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2019_back.webp){ loading=lazy }
 
 </div>
 
 ## 2022
 
-- ![Image](https://cdn.rambots.org/Shirt_2022_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2022_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2022_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2022_back.webp){ loading=lazy }
 
 </div>
 
@@ -112,8 +112,8 @@ Shirt design not available at the moment
 
 <div class="grid cards" markdown>
 
-- ![Image](https://cdn.rambots.org/Shirt_2024_front.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2024_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Shirt_2024_back.PNG){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Shirt_2024_back.webp){ loading=lazy }
 
 </div>
