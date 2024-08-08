@@ -9,85 +9,85 @@ site_url: https://docs.rambots.org/
 site_description: The official source of documentation and training materials for the 2204 Rambots
 site_author: 2204 Rambots
 
-copyright: '&copy; Copyright 2023 Rambots'
+copyright: "&copy; Copyright 2023 Rambots"
 
 nav:
   - Home:
-    - Home: index.md
-    - Student Handbook: handbook.md
+      - Home: index.md
+      - Student Handbook: handbook.md
   - Programming:
-    - Programming Overview: programming/overview.md
-    - Kotlin:
-        - Fundamentals:
-          - Introduction to Programming: programming/kotlin/fundamentals/intro-to-programming.md
-          - Introduction to Kotlin: programming/kotlin/fundamentals/intro-to-kotlin.md
-          - Variables: programming/kotlin/fundamentals/variables.md
-          - Collections: programming/kotlin/fundamentals/collections.md
-          - Control Flow: programming/kotlin/fundamentals/control-flow.md
-          - Loops: programming/kotlin/fundamentals/loops.md
-          - Functions: programming/kotlin/fundamentals/functions.md
-          - Common Mistakes: programming/kotlin/fundamentals/common-mistakes.md
-        - Object Oriented Programming:
-          - Classes: programming/kotlin/oop/classes.md
-          - Inheritance: programming/kotlin/oop/inheritance.md
-          - Abstraction: programming/kotlin/oop/abstraction.md
-          - Polymorphism: programming/kotlin/oop/polymorphism.md
-          - Encapsulation: programming/kotlin/oop/encapsulation.md
-          - Interfaces: programming/kotlin/oop/interfaces.md
-          - Access Modifiers: programming/kotlin/oop/access-modifiers.md
-          - Static vs. Instance: programming/kotlin/oop/static-vs-instance.md
-          - Data Classes and Structures: programming/kotlin/oop/data-classes-and-structures.md
-    - Version Control:
-        - Git Introduction: programming/version-control/git-intro.md
-        - Git In Action (Single Repository): programming/version-control/git-in-action-single.md
-        - Git In Action (Multiple Repositories): programming/version-control/git-in-action-multiple.md
-        - Github: programming/version-control/github.md
-        - Pull Requests: programming/version-control/pull-requests.md
-        - Git, GitHub, and IntelliJ: programming/version-control/git-github-intellij.md
-        - Git Development Patterns: programming/version-control/git-dev-patterns.md
-        - Git Practice Activity: programming/version-control/git-practice-activity.md
-    - Networking: programming/networking.md
-    - Advanced Topics:
-        - PID Controllers: programming/advanced-topics/pid-control.md
-        - Inverse Kinematics: programming/advanced-topics/inverse-kinematics.md
-        - Motion Profiling: programming/advanced-topics/motion-profiling.md
-        - Path Planning: programming/advanced-topics/path-planning.md
-        - Vision Processing: programming/advanced-topics/vision-processing.md
-        - Testing: programming/advanced-topics/testing.md
-        - Debugging: programming/advanced-topics/debugging.md
-        - Logging: programming/advanced-topics/logging.md
-        - Unit Testing: programming/advanced-topics/unit-testing.md
-        - Continuous Integration: programming/advanced-topics/continuous-integration.md
-        - Continuous Deployment: programming/advanced-topics/continuous-deployment.md
+      - Programming Overview: programming/overview.md
+      - Kotlin:
+          - Fundamentals:
+              - Introduction to Programming: programming/kotlin/fundamentals/intro-to-programming.md
+              - Introduction to Kotlin: programming/kotlin/fundamentals/intro-to-kotlin.md
+              - Variables: programming/kotlin/fundamentals/variables.md
+              - Collections: programming/kotlin/fundamentals/collections.md
+              - Control Flow: programming/kotlin/fundamentals/control-flow.md
+              - Loops: programming/kotlin/fundamentals/loops.md
+              - Functions: programming/kotlin/fundamentals/functions.md
+              - Common Mistakes: programming/kotlin/fundamentals/common-mistakes.md
+          - Object Oriented Programming:
+              - Classes: programming/kotlin/oop/classes.md
+              - Inheritance: programming/kotlin/oop/inheritance.md
+              - Abstraction: programming/kotlin/oop/abstraction.md
+              - Polymorphism: programming/kotlin/oop/polymorphism.md
+              - Encapsulation: programming/kotlin/oop/encapsulation.md
+              - Interfaces: programming/kotlin/oop/interfaces.md
+              - Access Modifiers: programming/kotlin/oop/access-modifiers.md
+              - Static vs. Instance: programming/kotlin/oop/static-vs-instance.md
+              - Data Classes and Structures: programming/kotlin/oop/data-classes-and-structures.md
+      - Version Control:
+          - Git Introduction: programming/version-control/git-intro.md
+          - Git In Action (Single Repository): programming/version-control/git-in-action-single.md
+          - Git In Action (Multiple Repositories): programming/version-control/git-in-action-multiple.md
+          - Github: programming/version-control/github.md
+          - Pull Requests: programming/version-control/pull-requests.md
+          - Git, GitHub, and IntelliJ: programming/version-control/git-github-intellij.md
+          - Git Development Patterns: programming/version-control/git-dev-patterns.md
+          - Git Practice Activity: programming/version-control/git-practice-activity.md
+      - Networking: programming/networking.md
+      - Advanced Topics:
+          - PID Controllers: programming/advanced-topics/pid-control.md
+          - Inverse Kinematics: programming/advanced-topics/inverse-kinematics.md
+          - Motion Profiling: programming/advanced-topics/motion-profiling.md
+          - Path Planning: programming/advanced-topics/path-planning.md
+          - Vision Processing: programming/advanced-topics/vision-processing.md
+          - Testing: programming/advanced-topics/testing.md
+          - Debugging: programming/advanced-topics/debugging.md
+          - Logging: programming/advanced-topics/logging.md
+          - Unit Testing: programming/advanced-topics/unit-testing.md
+          - Continuous Integration: programming/advanced-topics/continuous-integration.md
+          - Continuous Deployment: programming/advanced-topics/continuous-deployment.md
   - Electrical:
-    - Electrical Overview: electrical/overview.md
-    - Safety:
-      - Robot Interaction: electrical/safety/robot-interaction.md
-      - Electrical Safety: electrical/safety/electrical-safety.md
-    - Theoretical:
-      - Voltage: electrical/theoretical/voltage.md
-      - Current: electrical/theoretical/current.md
-      - Resistance: electrical/theoretical/resistance.md
-      - Wiring Gauges: electrical/theoretical/wiring-gauges.md
-      - Ohm's Law: electrical/theoretical/ohms-law.md
-      - Kirchhoff's Laws: electrical/theoretical/kirchhoffs-laws.md
-      - Series Circuits: electrical/theoretical/series-circuits.md
-      - Parallel Circuits: electrical/theoretical/parallel-circuits.md
-      - Series-Parallel Circuits: electrical/theoretical/series-parallel-circuits.md
-      - Capacitors: electrical/theoretical/capacitors.md
-      - Inductors: electrical/theoretical/inductors.md
-      - Transformers: electrical/theoretical/transformers.md
-      - Diodes: electrical/theoretical/diodes.md
-      - Microcontrollers: electrical/theoretical/microcontrollers.md
-      - Microprocessors: electrical/theoretical/microprocessors.md
-    - Systems:
-      - Power Distribution: electrical/systems/power-distribution.md
-      - CAN Bus: electrical/systems/can-bus.md
-      - Pneumatics: electrical/systems/pneumatics.md
-      - Sensors: electrical/systems/sensors.md
-      - Electrical Diagrams: electrical/systems/electrical-diagrams.md
+      - Electrical Overview: electrical/overview.md
+      - Safety:
+          - Robot Interaction: electrical/safety/robot-interaction.md
+          - Electrical Safety: electrical/safety/electrical-safety.md
+      - Theoretical:
+          - Voltage: electrical/theoretical/voltage.md
+          - Current: electrical/theoretical/current.md
+          - Resistance: electrical/theoretical/resistance.md
+          - Wiring Gauges: electrical/theoretical/wiring-gauges.md
+          - Ohm's Law: electrical/theoretical/ohms-law.md
+          - Kirchhoff's Laws: electrical/theoretical/kirchhoffs-laws.md
+          - Series Circuits: electrical/theoretical/series-circuits.md
+          - Parallel Circuits: electrical/theoretical/parallel-circuits.md
+          - Series-Parallel Circuits: electrical/theoretical/series-parallel-circuits.md
+          - Capacitors: electrical/theoretical/capacitors.md
+          - Inductors: electrical/theoretical/inductors.md
+          - Transformers: electrical/theoretical/transformers.md
+          - Diodes: electrical/theoretical/diodes.md
+          - Microcontrollers: electrical/theoretical/microcontrollers.md
+          - Microprocessors: electrical/theoretical/microprocessors.md
+      - Systems:
+          - Power Distribution: electrical/systems/power-distribution.md
+          - CAN Bus: electrical/systems/can-bus.md
+          - Pneumatics: electrical/systems/pneumatics.md
+          - Sensors: electrical/systems/sensors.md
+          - Electrical Diagrams: electrical/systems/electrical-diagrams.md
   - Design:
-    - Design Overview: design/overview.md
+      - Design Overview: design/overview.md
   - Fabrication:
       - Toolchest Guidelines: fabrication/toolchest-guidelines.md
       - Fabrication Overview: fabrication/overview.md
@@ -112,11 +112,11 @@ nav:
           - Vises: fabrication/hand-tools/vises.md
           - Wrenches: fabrication/hand-tools/wrench.md
       - Power Tools:
-        - Power Drill: fabrication/power-tools/drills.md
-        - Circular Saw: fabrication/power-tools/circular-saws.md
-        - Drill Press: fabrication/power-tools/drill-presses.md
-        - Impact Driver: fabrication/power-tools/impact-drivers.md
-        - Miter Saw: fabrication/power-tools/miter-saws.md
+          - Power Drill: fabrication/power-tools/drills.md
+          - Circular Saw: fabrication/power-tools/circular-saws.md
+          - Drill Press: fabrication/power-tools/drill-presses.md
+          - Impact Driver: fabrication/power-tools/impact-drivers.md
+          - Miter Saw: fabrication/power-tools/miter-saws.md
       - Manufacturing:
           - Additive Manufacturing: fabrication/manufacturing/additive-manufacturing.md
           - Subtractive Manufacturing: fabrication/manufacturing/subtractive-manufacturing.md
@@ -125,20 +125,20 @@ nav:
       - File Types:
           - Drawing Exchange Format (DXF): fabrication/file-types/dxf.md
   - Business:
-    - Overview: business/overview.md
-    - Branding:
-      - Branding Guidelines: business/Branding/guidelines.md
-      - Photopea: business/Branding/photopea.md
-      - Merch Archives:
-        - Shirt Archives: business/Branding/Merch archives/shirt-archive.md
-        - Jacket Archives: business/Branding/Merch archives/jacket-archive.md
-    - Fundraising:
-      - Sponsors: business/Fundraising/sponsors.md
-      - Grants: business/Fundraising/grants.md
-    - "Public Relations":
-      - Social Media: business/Public Relations/socialmedia.md
-      - Newsletters: business/Public Relations/newsletter.md
-      - Blog Posts: business/Public Relations/blogposts.md
+      - Overview: business/overview.md
+      - Branding:
+          - Branding Guidelines: business/Branding/guidelines.md
+          - Photopea: business/Branding/photopea.md
+          - Merch Archives:
+              - Shirt Archives: business/Branding/Merch archives/shirt-archive.md
+              - Jacket Archives: business/Branding/Merch archives/jacket-archive.md
+      - Fundraising:
+          - Sponsors: business/Fundraising/sponsors.md
+          - Grants: business/Fundraising/grants.md
+      - "Public Relations":
+          - Social Media: business/Public Relations/socialmedia.md
+          - Newsletters: business/Public Relations/newsletter.md
+          - Blog Posts: business/Public Relations/blogposts.md
 
 theme:
   name: material
@@ -160,7 +160,7 @@ theme:
       scheme: default
       primary: custom
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -181,7 +181,6 @@ plugins:
       minify_css: true
   - git-revision-date-localized:
       enable_creation_date: true
-  - git-authors
 
 markdown_extensions:
   - abbr
@@ -201,7 +200,7 @@ markdown_extensions:
         - includes/abbreviations.md
   - pymdownx.keys
   - pymdownx.superfences:
-     custom_fences:
+      custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
@@ -214,7 +213,6 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
 
 extra:
   social:
