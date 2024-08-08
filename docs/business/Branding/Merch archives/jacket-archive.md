@@ -14,6 +14,6 @@
 
 - ![Image](https://cdn.rambots.org/Jacket_red_front.webp){ loading=lazy }
 
-- ![Image](https://cdn.rambots.org/Jacket_back_back.webp){ loading=lazy }
+- ![Image](https://cdn.rambots.org/Jacket_red_back.webp){ loading=lazy }
 
 </div>
