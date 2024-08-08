@@ -98,6 +98,8 @@ Shirt design not available at the moment
 
 ## 2022
 
+<div class="grid cards" markdown>
+
 - ![Image](https://cdn.rambots.org/Shirt_2022_front.webp){ loading=lazy }
 
 - ![Image](https://cdn.rambots.org/Shirt_2022_back.webp){ loading=lazy }
