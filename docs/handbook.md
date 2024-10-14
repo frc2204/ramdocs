@@ -37,8 +37,11 @@ engineering, art, and mathematics) education.
 
 ### Awards
 
-- 2023 Creativity Award for our flexible 3D Printed Robot Claw
-- 2020 Woodie Flowers Mentor Award for our mentor, Gary Gin
+- Regional Finalist at the 2024 Sacramento Regional
+- Creativity Award at the 2023 Sacramento Regional for our flexible 3D Printed Robot Claw
+- Woodie Flowers Award at the 2020 Sacramento Regional for our mentor, Gary Gin.
+- Inspiration Award at the 2017 China Robotics Competition
+
 
 ## Mentors
 
@@ -64,28 +67,19 @@ The core leadership team comprises the team captain, and subteam leads. For this
 
 The captain of the team will be chosen from the previous year’s core leadership.
 
-**Team Captain: James Ding**
-
-- Team captain serves as primary point of contact and liaison between team and others
-- Responsibilities include leading team meetings and facilitating decision-making processes
-- Works closely with other team leaders to coordinate and oversee team activities
-- Activities include CAD/programming work and project management
-- Leadership and communication skills of team captain are essential
-- Ensures team operates effectively and efficiently throughout the season
-
 **Build Lead: Ethan Wu**
 
 - Lead design and prototyping, making critical decisions on robot's form and function.
 - Coordinate daily work of build team, ensuring timely completion of high-quality tasks.
 - Collaborate with programming team to integrate software and hardware components.
 
-**EECS Lead: Bryan Yu**
+**EECS Lead: Isaac Chan**
 
 - Coordinate the team's electrical, electronics, and computer science work.
 - Work closely with the programming team to integrate software and hardware components.
 - Ensure that the team's electrical and electronics work is safe, reliable, and meets competition requirements.
 
-**Business Lead: Brian Ding and Aiden Lee**
+**Business Lead: Brian Ding and Hertha Phung**
 
 - Manage team's finances, including accounting, purchasing, and record-keeping.
 - Plan and coordinate team events, including travel arrangements and logistics.
@@ -208,13 +202,16 @@ We hold ourselves accountable for our actions and commitments:
 
 ## Costs
 
-The cost to join the team is $300, which covers the cost of team registration, materials, tools, and other expenses. Costs for trips to competitions are not included. However, we do not want the fee to be a barrier to entry, so we offer financial assistance to waive the fee for students who need it. If you need financial aid, please reach out to one of the mentors.
+The Base Cost of joining the team is $350
+The Early Bird rate is $300
+
+This cost covers the cost of team registration, materials, tools, and other expenses. Costs for trips to competitions are not included. However, we do not want the fee to be a barrier to entry, so we offer financial assistance to waive the fee for students who need it. If you need financial aid, please reach out to one of the mentors. Additionally, Team members who contribute extra work or show exceptional dedication may be considered for special rates at the discretion of team leadership.
 
 ### Parent Support
 
 #### Donations
 
-Approximately 25% of our team's income comes from parent donations, which help ensure that we can operate at our full potential. While donations are not mandatory, we greatly appreciate any support that we receive. Our team relies on the generosity of our community to provide valuable opportunities for our students in the areas of science, technology, engineering, and mathematics (STEM).
+A big portion of our team's income comes from donations, which help ensure that we can operate at our full potential. While donations are not mandatory, we greatly appreciate any support that we receive. Our team relies on the generosity of our community to provide valuable opportunities for our students in the areas of science, technology, engineering, and mathematics (STEM).
 
 #### Volunteers
 
@@ -229,33 +226,34 @@ Parents are kindly requested to sign up for providing meals on either Wednesday 
 During the competitions, parents can help facilitate students at the competitions.
 
 ## Meetings Schedule
-You can find the meeting schedule at [rambots.org/schedule](https://rambots.org/schedule)
+You can find the meeting schedule at [https://rambots.org/resources/schedule/](https://rambots.org/resources/schedule/)
 
 ## Major Events
 
-### Chezy Champs
-
-The Chezy Champs is an off season event hosted by Team 254: The Cheezy Poofs. It is held at Bellarmine College Preparatory School in San Jose, California.
-
 ### Kickoff
 
-Kickoff this year is on January 6, 2023
+Kickoff this year is on January 4, 2025
 
-### San Francisco Regional (CASF)
+### Sacramento Regional
 
-The San Francisco Regional is hosted at Saint Ignatius College Preparatory School. The event is held on March 16 to March 19. Our team has never been to the San Francisco Regional
+The Sacramento Regional is hosted at Pleasant Grove High School in Elk Grove, CA, this season. It will be held from Mar 14 - Mar 17 2025. Our team has always gone to the Sacramento Regional and is considered a tradition.
 
-### Sacramento Regional (CADA)
 
-The Sacramento Regional is hosted at the UC Davis Arc Pavilion. It is held on March 23 and goes to March 26. Our team has always gone to the Sacramento Regional and is considered a tradition.
+### East Bay Regional
 
-### Silicon Valley Regional (CASJ)
+The East Bay Regional will be hosted at Berkeley High School this season. It goes from Apr 3 - Apr 6 2025.
 
-The Silicon Valley Regional is hosted at the event center at San Jose State University. The event is held on April 5-8. We have never competed at the Silicon Valley Regional.
+### Silicon Valley Regional
+
+The Silicon Valley Regional will be hosted at Woodside High School this season. The event will be held from Mar 13 - Mar 16 2025. We have never competed at the Silicon Valley Regional.
 
 ### Houston Championships
 
 The Houston Championships is where the world championships are held. Our team has never competed in the world championships.
+
+### Chezy Champs
+
+The Chezy Champs is an off season event hosted by Team 254: The Cheezy Poofs. It is held at Bellarmine College Preparatory School in San Jose, California.
 
 ## Credits
 
