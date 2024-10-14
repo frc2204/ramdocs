@@ -1,7 +1,7 @@
 # Student Handbook
 
 !!! abstract "Student Contract"
-    You can find the student contract at [https://docs.rambots.org/handbook](./handbook)
+    You can find the student contract at [https://docs.rambots.org/student-contract](./student-contract)
 
 ## About the Handbook
 
