@@ -73,6 +73,14 @@ The captain of the team will be chosen from the previous year’s core leadershi
 - Work closely with the programming team to integrate software and hardware components.
 - Ensure that the team's electrical and electronics work is safe, reliable, and meets competition requirements.
 
+**Programming Lead: Jay Yu**
+
+- Oversee the development, testing, and optimization of the robot's software.
+- Collaborate with the build and electrical teams to ensure seamless integration between software and hardware components.
+- Manage the development of control systems, autonomous routines, and user interfaces for robot operation.
+- Ensure that the codebase is organized, well-documented, and adheres to best practices.
+- Troubleshoot software issues and make real-time adjustments during testing and competitions.
+
 **Business Lead: Brian Ding and Hertha Phung**
 
 - Manage team's finances, including accounting, purchasing, and record-keeping.
@@ -197,6 +205,7 @@ We hold ourselves accountable for our actions and commitments:
 ## Costs
 
 The Base Cost of joining the team is $350
+
 The Early Bird rate is $300
 
 This cost covers the cost of team registration, materials, tools, and other expenses. Costs for trips to competitions are not included. However, we do not want the fee to be a barrier to entry, so we offer financial assistance to waive the fee for students who need it. If you need financial aid, please reach out to one of the mentors. Additionally, Team members who contribute extra work or show exceptional dedication may be considered for special rates at the discretion of team leadership.
