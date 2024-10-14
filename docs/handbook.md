@@ -1,7 +1,7 @@
 # Student Handbook
 
 !!! abstract "Student Contract"
-    You can find the student contract [here](./student-contract.md)
+    You can find the student contract [https://docs.rambots.org/handbook](./handbook)
 
 ## About the Handbook
 
@@ -27,13 +27,7 @@ Learn more about the FIRST and their other programs at [firstinspires.org](https
 
 ## About the Team
 
-The Rambots, Team 2204 are a FIRST (For Inspiration and Recognition of Science and
-Technology) Robotics team located at the California Crosspoint Academy in Hayward, CA in
-the San Francisco Bay Area. They were established in 2007 in San Leandro, California. Since
-then, the school has moved to Hayward and provides students with a chance to pursue their
-interests in science, technology, engineering, and mathematics. The team is proud of its
-history and eager to contribute to the advancement of STEAM (science, technology,
-engineering, art, and mathematics) education.
+The Rambots (FRC Team 2204) are a FIRST Robotics Competition team located at the California Crosspoint Academy in the San Francisco Bay Area. They were established in 2007 in San Leandro, California. Since then, the school has moved to Hayward and provides students with a chance to pursue their interests in science, technology, engineering, and mathematics. The team is proud of its history and eager to contribute to the advancement of STEAM (science, technology, engineering, art, and mathematics) education.
 
 ### Awards
 
@@ -73,7 +67,7 @@ The captain of the team will be chosen from the previous year’s core leadershi
 - Coordinate daily work of build team, ensuring timely completion of high-quality tasks.
 - Collaborate with programming team to integrate software and hardware components.
 
-**EECS Lead: Isaac Chan**
+**Electrical Lead: Isaac Chan**
 
 - Coordinate the team's electrical, electronics, and computer science work.
 - Work closely with the programming team to integrate software and hardware components.
@@ -85,7 +79,7 @@ The captain of the team will be chosen from the previous year’s core leadershi
 - Plan and coordinate team events, including travel arrangements and logistics.
 - Establish and maintain relationships with sponsors, school officials, volunteers, and mentors
 
-??? question "How are students selected for leadership positions?"
+!!! question "How are students selected for leadership positions?"
     After the season ends, all students are given the opportunity to apply for leadership positions. The application process to become apart of core leadership will often require you to submit an written statement of why you are fit for the position. Other leadership positions do not require a written statement, but are encouraged to do so. The current core leadership team will review the applications and select the the new core leadership team.
 
     Next, the new core leadership team will choose the subteam leads from the previous year's subteam members.
